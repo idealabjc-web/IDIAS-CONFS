@@ -58,10 +58,10 @@ export default function Home() {
             subtitle={content.intro}
           />
 
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-8 md:grid-cols-2">
             {(content.features || []).map((f, i) => (
               <Reveal key={f.title} delay={i * 90}>
-                <div className="card group h-full p-8 hover:-translate-y-2">
+                <div className="card group flex h-full flex-col justify-between p-8 hover:-translate-y-2">
                   <span className="absolute -right-6 -top-8 font-display text-[7rem] font-black leading-none text-brand-purple/[0.04] transition-colors duration-500 group-hover:text-brand-pink/[0.07]">
                     {i + 1}
                   </span>
@@ -77,40 +77,6 @@ export default function Home() {
                 </div>
               </Reveal>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ---------- Split: about + parallax collage ---------- */}
-      <section className="relative overflow-hidden bg-cream py-24 lg:py-32">
-        <div className="container-x grid items-center gap-16 lg:grid-cols-2">
-          <Reveal variant="left">
-            <span className="eyebrow">Why i-DIAS</span>
-            <h2 className="h-display text-brand-purple">A platform built by its participants</h2>
-            <span className="mt-6 block h-[3px] w-24 rounded-full bg-brand-gradient" />
-            <p className="lede mt-8 text-ink-soft">{content.aboutText}</p>
-            <div className="mt-10 flex flex-wrap gap-4">
-              <Link to="/about-us" className="btn-ghost">More about us</Link>
-              <Link to="/speaker-blueprints" className="btn-ghost">Become a speaker</Link>
-            </div>
-          </Reveal>
-
-          <div className="relative grid grid-cols-2 gap-4 sm:gap-5">
-            <Parallax speed={0.09} className="space-y-4 sm:space-y-5">
-              {(content.gallery || []).slice(1, 3).map((src, i) => (
-                <Reveal key={src} delay={i * 110} variant="zoom">
-                  <Img src={src} alt="" ratio="aspect-[3/4]" zoom className="group shadow-soft" />
-                </Reveal>
-              ))}
-            </Parallax>
-            <Parallax speed={-0.09} className="space-y-4 pt-10 sm:space-y-5 sm:pt-14">
-              {(content.gallery || []).slice(3, 5).map((src, i) => (
-                <Reveal key={src} delay={i * 110 + 60} variant="zoom">
-                  <Img src={src} alt="" ratio="aspect-[3/4]" zoom className="group shadow-soft" />
-                </Reveal>
-              ))}
-            </Parallax>
-            <div className="orb -right-10 top-1/3 h-56 w-56 bg-brand-pink/20" />
           </div>
         </div>
       </section>
@@ -220,6 +186,40 @@ export default function Home() {
           </div>
         </section>
       )}
+
+      {/* ---------- Split: about + parallax collage ---------- */}
+      <section className="relative overflow-hidden bg-cream py-24 lg:py-32">
+        <div className="container-x grid items-center gap-16 lg:grid-cols-2">
+          <Reveal variant="left">
+            <span className="eyebrow">Why i-DIAS</span>
+            <h2 className="h-display text-brand-purple">A platform built by its participants</h2>
+            <span className="mt-6 block h-[3px] w-24 rounded-full bg-brand-gradient" />
+            <p className="lede mt-8 text-ink-soft">{content.aboutText}</p>
+            <div className="mt-10 flex flex-wrap gap-4">
+              <Link to="/about-us" className="btn-ghost">More about us</Link>
+              <Link to="/speaker-blueprints" className="btn-ghost">Become a speaker</Link>
+            </div>
+          </Reveal>
+
+          <div className="relative grid grid-cols-2 gap-4 sm:gap-5">
+            <Parallax speed={0.09} className="space-y-4 sm:space-y-5">
+              {(content.gallery || []).slice(1, 3).map((src, i) => (
+                <Reveal key={src} delay={i * 110} variant="zoom">
+                  <Img src={src} alt="" ratio="aspect-[3/4]" zoom className="group shadow-soft" />
+                </Reveal>
+              ))}
+            </Parallax>
+            <Parallax speed={-0.09} className="space-y-4 pt-10 sm:space-y-5 sm:pt-14">
+              {(content.gallery || []).slice(3, 5).map((src, i) => (
+                <Reveal key={src} delay={i * 110 + 60} variant="zoom">
+                  <Img src={src} alt="" ratio="aspect-[3/4]" zoom className="group shadow-soft" />
+                </Reveal>
+              ))}
+            </Parallax>
+            <div className="orb -right-10 top-1/3 h-56 w-56 bg-brand-pink/20" />
+          </div>
+        </div>
+      </section>
 
       <CTA />
     </>

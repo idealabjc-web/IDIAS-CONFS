@@ -89,7 +89,7 @@ export default function EventDetail() {
 
               <div className="mt-10 flex flex-wrap items-center gap-4">
                 <a href="#tickets" className="btn-primary">
-                  {from ? `Register from $${from.toLocaleString()}` : 'Register interest'}
+                  Register interest
                 </a>
                 {days.length > 0 && (
                   <a href="#programme" className="btn-outline">View programme</a>
@@ -303,6 +303,55 @@ export default function EventDetail() {
                 ))}
               </div>
             </div>
+            {/* Venue & Co-located cards grid */}
+            {(event.location || siblings.length > 0) && (
+              <div className="mt-14">
+                <div className={`grid gap-6 ${event.location && siblings.length > 0 ? 'md:grid-cols-2' : 'grid-cols-1'}`}>
+                  {/* Venue */}
+                  {event.location && (
+                    <div className="card p-7">
+                      <span className="eyebrow">Venue</span>
+                      <p className="text-lg font-extrabold text-brand-purple">{event.location}</p>
+                      {event.time && (
+                        <p className="mt-3 flex items-center gap-2 text-sm text-ink-soft">
+                          <Clock />
+                          {event.time} {event.timezone && <span className="text-ink-muted">({event.timezone})</span>}
+                        </p>
+                      )}
+                      <a
+                        href={`https://www.google.com/maps/search/${encodeURIComponent(event.location)}`}
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="btn-ghost mt-6 w-full !px-4 !text-[11px]"
+                      >
+                        Open in maps
+                      </a>
+                    </div>
+                  )}
+
+                  {/* Co-located */}
+                  {siblings.length > 0 && (
+                    <div className="card p-7">
+                      <span className="eyebrow">Same venue, same dates</span>
+                      <ul className="space-y-4">
+                        {siblings.slice(0, 4).map((s) => (
+                          <li key={s.slug}>
+                            <Link to={`/events/${s.slug}`} className="group flex gap-3.5">
+                              <img src={s.image} alt="" loading="lazy" className="h-14 w-20 shrink-0 rounded-xl object-cover" />
+                              <span className="min-w-0">
+                                <span className="line-clamp-2 text-[13px] font-bold leading-snug text-brand-purple transition-colors group-hover:text-brand-pink">
+                                  {s.title}
+                                </span>
+                              </span>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
 
           {/* ---------------- SIDEBAR ---------------- */}
@@ -314,8 +363,8 @@ export default function EventDetail() {
                   <p className="text-[11px] font-bold uppercase tracking-[0.24em] text-white/70">
                     Registration
                   </p>
-                  <p className="mt-2 font-display text-3xl font-black">
-                    {from ? `From $${from.toLocaleString()}` : 'On request'}
+                  <p className="mt-1 font-display text-2xl font-black">
+                    Passes & Pricing
                   </p>
                 </div>
               </div>
@@ -356,49 +405,6 @@ export default function EventDetail() {
                 </p>
               </div>
             </div>
-
-            {/* Venue */}
-            {event.location && (
-              <div className="card mt-6 p-7">
-                <span className="eyebrow">Venue</span>
-                <p className="text-lg font-extrabold text-brand-purple">{event.location}</p>
-                {event.time && (
-                  <p className="mt-3 flex items-center gap-2 text-sm text-ink-soft">
-                    <Clock />
-                    {event.time} {event.timezone && <span className="text-ink-muted">({event.timezone})</span>}
-                  </p>
-                )}
-                <a
-                  href={`https://www.google.com/maps/search/${encodeURIComponent(event.location)}`}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="btn-ghost mt-6 w-full !px-4 !text-[11px]"
-                >
-                  Open in maps
-                </a>
-              </div>
-            )}
-
-            {/* Co-located */}
-            {siblings.length > 0 && (
-              <div className="card mt-6 p-7">
-                <span className="eyebrow">Same venue, same dates</span>
-                <ul className="space-y-4">
-                  {siblings.slice(0, 4).map((s) => (
-                    <li key={s.slug}>
-                      <Link to={`/events/${s.slug}`} className="group flex gap-3.5">
-                        <img src={s.image} alt="" loading="lazy" className="h-14 w-20 shrink-0 rounded-xl object-cover" />
-                        <span className="min-w-0">
-                          <span className="line-clamp-2 text-[13px] font-bold leading-snug text-brand-purple transition-colors group-hover:text-brand-pink">
-                            {s.title}
-                          </span>
-                        </span>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
           </aside>
         </div>
       </section>

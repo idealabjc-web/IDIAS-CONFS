@@ -77,12 +77,6 @@ export default function EventCard({ event, featured = false }) {
           <Link to={`/events/${event.slug}`}>{event.title}</Link>
         </h3>
 
-        {event.description?.[0] && (
-          <p className="mt-4 line-clamp-3 text-sm leading-relaxed text-ink-soft">
-            {event.description[0]}
-          </p>
-        )}
-
         <div className="mt-auto flex items-center justify-between gap-4 pt-7">
           <Link
             to={`/events/${event.slug}`}
@@ -91,11 +85,6 @@ export default function EventCard({ event, featured = false }) {
             View details
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="transition-transform duration-300 group-hover:translate-x-1"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg>
           </Link>
-          {fromPrice(event.tickets) && (
-            <span className="shrink-0 rounded-full bg-brand-purple/[0.07] px-3 py-1 text-[11px] font-bold text-brand-purple">
-              from {fromPrice(event.tickets)}
-            </span>
-          )}
         </div>
       </div>
     </article>
