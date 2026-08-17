@@ -465,7 +465,7 @@
     },
     {
      "time": "10:30 - 11:00",
-     "title": "Keynote Speaker Slot Available"
+     "title": "Keynote Speaker / Antonia Reason"
     },
     {
      "time": "11:00 - 11:30",
@@ -3005,6 +3005,11 @@
   }
  ],
  "speakers": [
+  {
+   "name": "Antonia Reason",
+   "role": "Keynote Speaker",
+   "image": "/img/2026_08_Antonia-Reason.jpg"
+  },
   {
    "name": "Angela Butts Chester",
    "role": "Keynote Speaker",
