@@ -1432,7 +1432,7 @@
     },
     {
      "time": "10:00 - 10:30",
-     "title": "Coffee Break"
+     "title": "Keynote Speaker / Daniela Casetta"
     },
     {
      "time": "10:30 - 11:00",
@@ -3009,6 +3009,11 @@
    "name": "Antonia Reason",
    "role": "Keynote Speaker",
    "image": "/img/2026_08_Antonia-Reason.jpg"
+  },
+  {
+   "name": "Daniela Casetta",
+   "role": "Keynote Speaker",
+   "image": "/img/Daniela-Casetta.jpeg"
   },
   {
    "name": "Angela Butts Chester",

@@ -37,7 +37,16 @@ export default function EventDetail() {
   const start = startDate(event)
   const from = lowestPrice(event.tickets)
   const siblings = coLocated(event)
-  const speakers = (content.speakers || []).slice(0, 8)
+  const sessionSpeakerNames = (event.sessions || [])
+    .map((s) => sessionSpeaker(s.title))
+    .filter(Boolean)
+  const eventSpeakers = (content.speakers || []).filter((sp) =>
+    sessionSpeakerNames.some((name) => name.toLowerCase() === sp.name.toLowerCase())
+  )
+  const otherSpeakers = (content.speakers || []).filter(
+    (sp) => !eventSpeakers.some((es) => es.name.toLowerCase() === sp.name.toLowerCase())
+  )
+  const speakers = [...eventSpeakers, ...otherSpeakers].slice(0, 8)
   const bgY = reduce ? 0 : Math.min(y * 0.3, 240)
 
   const chips = [
@@ -206,6 +215,7 @@ export default function EventDetail() {
                       const open = isOpenSlot(s.title)
                       const who = sessionSpeaker(s.title)
                       const role = sessionRole(s.title)
+                      const spProfile = who ? (content.speakers || []).find((x) => x.name.toLowerCase() === who.toLowerCase()) : null
                       return (
                         <li
                           key={`${s.time}-${i}`}
@@ -238,14 +248,23 @@ export default function EventDetail() {
 
                           <div className="min-w-0 flex-1 pb-1">
                             {who ? (
-                              <>
-                                <p className="text-[15px] font-extrabold leading-snug text-brand-purple">
-                                  {who}
-                                </p>
-                                <p className="mt-1 text-[11px] font-bold uppercase tracking-[0.14em] text-brand-pink">
-                                  {role}
-                                </p>
-                              </>
+                              <div className="flex items-center gap-3.5">
+                                {spProfile?.image && (
+                                  <img
+                                    src={spProfile.image}
+                                    alt={who}
+                                    className="h-11 w-11 shrink-0 rounded-full object-cover ring-2 ring-brand-pink/40 shadow-sm"
+                                  />
+                                )}
+                                <div className="min-w-0">
+                                  <p className="text-[15px] font-extrabold leading-snug text-brand-purple">
+                                    {who}
+                                  </p>
+                                  <p className="mt-0.5 text-[11px] font-bold uppercase tracking-[0.14em] text-brand-pink">
+                                    {role}
+                                  </p>
+                                </div>
+                              </div>
                             ) : (
                               <p
                                 className={`text-[15px] font-bold leading-snug ${
