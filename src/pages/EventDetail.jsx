@@ -20,6 +20,13 @@ function Clock() {
   )
 }
 
+function matchSpeaker(list, name) {
+  if (!name) return null
+  const clean = (s) => String(s || '').toLowerCase().replace(/[^a-z0-9]/g, '')
+  const target = clean(name)
+  return (list || []).find((sp) => clean(sp.name) === target) || null
+}
+
 export default function EventDetail() {
   const { slug } = useParams()
   const event = getEvent(slug)
@@ -41,7 +48,7 @@ export default function EventDetail() {
     .map((s) => sessionSpeaker(s.title))
     .filter(Boolean)
   const eventSpeakers = (content.speakers || []).filter((sp) =>
-    sessionSpeakerNames.some((name) => name.toLowerCase() === sp.name.toLowerCase())
+    sessionSpeakerNames.some((name) => matchSpeaker([sp], name))
   )
   const otherSpeakers = (content.speakers || []).filter(
     (sp) => !eventSpeakers.some((es) => es.name.toLowerCase() === sp.name.toLowerCase())
@@ -215,7 +222,7 @@ export default function EventDetail() {
                       const open = isOpenSlot(s.title)
                       const who = sessionSpeaker(s.title)
                       const role = sessionRole(s.title)
-                      const spProfile = who ? (content.speakers || []).find((x) => x.name.toLowerCase() === who.toLowerCase()) : null
+                      const spProfile = who ? matchSpeaker(content.speakers, who) : null
                       return (
                         <li
                           key={`${s.time}-${i}`}

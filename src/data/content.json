@@ -2416,8 +2416,168 @@
      "price": "$199.00"
     }
    ],
-   "days": [],
-   "sessions": [],
+   "days": [
+    "08 Mar New York Day 1 Agenda",
+    "09 Mar New York Day 2 Agenda"
+   ],
+   "sessions": [
+    {
+     "time": "07:30 - 08:00",
+     "title": "Opening Ceremony"
+    },
+    {
+     "time": "08:00 - 08:30",
+     "title": "Keynote Speaker Slot Available"
+    },
+    {
+     "time": "08:30 - 09:00",
+     "title": "Keynote Speaker Slot Available"
+    },
+    {
+     "time": "09:00 - 09:30",
+     "title": "Keynote Speaker Slot Available"
+    },
+    {
+     "time": "09:30 - 10:00",
+     "title": "Keynote Speaker Slot Available"
+    },
+    {
+     "time": "10:00 - 10:30",
+     "title": "Coffee Break"
+    },
+    {
+     "time": "10:30 - 11:00",
+     "title": "Keynote Speaker Slot Available"
+    },
+    {
+     "time": "11:00 - 11:30",
+     "title": "Keynote Speaker Slot Available"
+    },
+    {
+     "time": "11:30 - 12:00",
+     "title": "Keynote Speaker Slot Available"
+    },
+    {
+     "time": "12:00 - 12:30",
+     "title": "Keynote Speaker Slot Available"
+    },
+    {
+     "time": "12:30 - 13:00",
+     "title": "Keynote Speaker Slot Available"
+    },
+    {
+     "time": "13:00 - 14:00",
+     "title": "Lunch Break"
+    },
+    {
+     "time": "14:00 - 14:30",
+     "title": "Speaker Slot Available"
+    },
+    {
+     "time": "14:30 - 15:00",
+     "title": "Speaker Slot Available"
+    },
+    {
+     "time": "15:00 - 15:30",
+     "title": "Speaker Slot Available"
+    },
+    {
+     "time": "15:30 - 16:00",
+     "title": "Speaker Slot Available"
+    },
+    {
+     "time": "16:00 - 16:30",
+     "title": "Coffee Break"
+    },
+    {
+     "time": "16:30 - 17:00",
+     "title": "Speaker Slot Available"
+    },
+    {
+     "time": "17:00 - 17:30",
+     "title": "Speaker Slot Available"
+    },
+    {
+     "time": "17:30 - 18:00",
+     "title": "Speaker Slot Available"
+    },
+    {
+     "time": "08:00 - 08:30",
+     "title": "Keynote Speaker Slot Available"
+    },
+    {
+     "time": "08:30 - 09:00",
+     "title": "Keynote Speaker Slot Available"
+    },
+    {
+     "time": "09:00 - 09:30",
+     "title": "Keynote Speaker Slot Available"
+    },
+    {
+     "time": "09:30 - 10:00",
+     "title": "Keynote Speaker / Lorraine Cuff, CC"
+    },
+    {
+     "time": "10:00 - 10:30",
+     "title": "Coffee Break"
+    },
+    {
+     "time": "10:30 - 11:00",
+     "title": "Keynote Speaker Slot Available"
+    },
+    {
+     "time": "11:00 - 11:30",
+     "title": "Keynote Speaker Slot Available"
+    },
+    {
+     "time": "11:30 - 12:00",
+     "title": "Keynote Speaker Slot Available"
+    },
+    {
+     "time": "12:00 - 12:30",
+     "title": "Keynote Speaker Slot Available"
+    },
+    {
+     "time": "12:30 - 13:00",
+     "title": "Keynote Speaker Slot Available"
+    },
+    {
+     "time": "13:00 - 14:00",
+     "title": "Lunch Break"
+    },
+    {
+     "time": "14:00 - 14:30",
+     "title": "Speaker Slot Available"
+    },
+    {
+     "time": "14:30 - 15:00",
+     "title": "Speaker Slot Available"
+    },
+    {
+     "time": "15:00 - 15:30",
+     "title": "Speaker Slot Available"
+    },
+    {
+     "time": "15:30 - 16:00",
+     "title": "Speaker Slot Available"
+    },
+    {
+     "time": "16:00 - 16:30",
+     "title": "Coffee Break"
+    },
+    {
+     "time": "16:30 - 17:00",
+     "title": "Speaker Slot Available"
+    },
+    {
+     "time": "17:00 - 17:30",
+     "title": "Speaker Slot Available"
+    },
+    {
+     "time": "17:30 - 18:00",
+     "title": "Speaker Slot Available"
+    }
+   ],
    "hasDetail": true
   },
   {
@@ -3006,9 +3166,24 @@
  ],
  "speakers": [
   {
+   "name": "Saren Keang",
+   "role": "Keynote Speaker",
+   "image": "/img/SarenKeang.jpeg"
+  },
+  {
+   "name": "Dr. Max Caruso (FIoL)",
+   "role": "Keynote Speaker",
+   "image": "/img/Dr.MaxCaruso (FIoL).jpeg"
+  },
+  {
+   "name": "Lorraine Cuff, CC",
+   "role": "Keynote Speaker",
+   "image": "/img/LorraineCuff-CC.jpeg"
+  },
+  {
    "name": "Antonia Reason",
    "role": "Keynote Speaker",
-   "image": "/img/2026_08_Antonia-Reason.jpg"
+   "image": "/img/Antonia-Reason.jpeg"
   },
   {
    "name": "Daniela Casetta",
