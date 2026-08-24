@@ -2369,6 +2369,145 @@
             "sharedProgrammeFrom": "Global Summit on Women Empowerment – Women Influencers Network (W.E.W.I.N.S)"
         },
         {
+            "slug": "icpmhhp-2027",
+            "title": "International Conference on Psychology, Mental Health & Human Potential",
+            "image": "/img/2023_01_PPMH-1024x662.png",
+            "date": "08 Mar 2027 - 11 Mar 2027",
+            "location": "Paris, France.",
+            "time": null,
+            "timezone": null,
+            "description": [
+                "The International Conference on Psychology, Mental Health & Human Potential is a premier global gathering bringing together psychologists, psychiatrists, neuroscientists, mental health professionals, and educators from around the world. The conference serves as a multi-disciplinary platform to exchange innovative research, clinical practices, and holistic strategies for fostering mental resilience and human potential.",
+                "Theme : “Unlocking Human Potential: Psychology, Resilience & Well-Being for a Better Future”",
+                "Through keynote sessions, panel discussions, and interactive forums, attendees will explore cutting-edge developments in positive psychology, cognitive behavioral interventions, workplace mental health, trauma recovery, and emotional well-being.",
+                "Set against the rich cultural backdrop of Paris, France, this 4-day international congress fosters global networking, interdisciplinary collaboration, and transformative insights designed to empower individuals, organizations, and communities.",
+                "Positive Psychology, Resilience & Human Potential",
+                "Cognitive Behavioral Therapy & Clinical Interventions",
+                "Workplace Mental Health, Burnout & Well-Being",
+                "Trauma-Informed Care & Post-Traumatic Growth",
+                "Neuroscience, Emotional Intelligence & Mindfulness"
+            ],
+            "tickets": [
+                {
+                    "name": "Speaker Registration",
+                    "price": "$799.00"
+                },
+                {
+                    "name": "Speaker Registration plus 2 Nights Stay Addon",
+                    "price": "$1099.00"
+                },
+                {
+                    "name": "Speaker Registration plus 3 Nights Stay Addon",
+                    "price": "$1299.00"
+                },
+                {
+                    "name": "Exhibitor Registration",
+                    "price": "$1999.00"
+                },
+                {
+                    "name": "Virtual Speaker Registration",
+                    "price": "$399.00"
+                },
+                {
+                    "name": "Delegate Registration",
+                    "price": "$399.00"
+                },
+                {
+                    "name": "Audio - Video Presentation",
+                    "price": "$199.00"
+                }
+            ],
+            "days": [
+                "08 Mar Paris Day 1 Agenda",
+                "09 Mar Paris Day 2 Agenda",
+                "10 Mar Paris Day 3 Agenda",
+                "11 Mar Paris Day 4 Agenda"
+            ],
+            "sessions": [
+                {
+                    "time": "07:30 - 08:00",
+                    "title": "Opening Ceremony"
+                },
+                {
+                    "time": "08:00 - 08:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "08:30 - 09:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "09:00 - 09:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "09:30 - 10:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "10:00 - 10:30",
+                    "title": "Coffee Break"
+                },
+                {
+                    "time": "10:30 - 11:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "11:00 - 11:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "11:30 - 12:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "12:00 - 12:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "12:30 - 13:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "13:00 - 14:00",
+                    "title": "Lunch Break"
+                },
+                {
+                    "time": "14:00 - 14:30",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "14:30 - 15:00",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "15:00 - 15:30",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "15:30 - 16:00",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "16:00 - 16:30",
+                    "title": "Coffee Break"
+                },
+                {
+                    "time": "16:30 - 17:00",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "17:00 - 17:30",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "17:30 - 18:00",
+                    "title": "Speaker Slot Available"
+                }
+            ],
+            "hasDetail": true
+        },
+        {
             "slug": "lead-2027",
             "title": "NextGen Women’s Leadership, Empowerment & Development Summit (L.E.A.D) 2027",
             "image": "/img/2025_09_Nextgen-Women-Leadership.jpg",
