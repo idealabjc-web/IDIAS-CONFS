@@ -2011,6 +2011,371 @@
             "hasDetail": true
         },
         {
+            "slug": "herlead-2028",
+            "title": "International Congress on Visionary Women Leadership (HerLead Summit)",
+            "image": "/img/2023_11_Women-Leadership-Banner-1024x635.jpg",
+            "date": "14 May 2028 - 17 May 2028",
+            "location": "Tokyo, Japan.",
+            "time": null,
+            "timezone": null,
+            "description": [
+                "The i-DIAS International Congress on Visionary Women Leadership (HerLead Summit) is an elite global gathering that brings together influential women leaders and forward-thinking professionals from across the world. It is designed as a high-impact platform where innovation, leadership, and collaboration converge to shape the future of women-led progress.",
+                "Theme: Bold Voices. Visionary Minds. Transformational Leadership.",
+                "HerLead Summit stands as a hub for transformative ideas, where leaders, entrepreneurs, and visionaries engage in meaningful conversations that drive change. By fostering global connections and encouraging bold perspectives, the summit empowers women to lead with confidence, purpose, and vision in an ever-evolving world.",
+                "The summit will feature keynote sessions, panel discussions, executive roundtables, and interactive forums that provide valuable opportunities for participants to engage with industry experts and peers. Special focus will be given to B2B networking, enabling meaningful connections and partnerships among attendees.",
+                "Theme : Bold Voices. Visionary Minds. Transformational Leadership.",
+                "Future of Visionary Women Leadership Women in Leadership: Breaking Barriers and Building Legacies Transformational Leadership in a Rapidly Changing World The Rise of Women Influencers in the Digital Era Emotional Intelligence as a Leadership Superpower Women Entrepreneurs: Scaling Businesses Globally Leadership in the Age of AI and Digital Transformation Building Resilient Mindsets for Sustainable Success Diversity, Equity, and Inclusion in Leadership Women in Corporate Leadership: Challenges and Opportunities Personal Branding and Executive Presence for Women Leaders Strategic Decision-Making and Leadership Excellence Women in STEM: Leading Innovation and Change The Power of Mentorship and Sponsorship Financial Empowerment Work-Life Integration and Holistic Wellbeing Women in Policy and Governance: Driving Global Impact and Wealth Leadership for Women",
+                "Social Entrepreneurship and Purpose-Driven Leadership Leadership Communication and Public Speaking Mastery Overcoming Bias and Navigating Workplace Challenges Women Leaders in Healthcare and Wellness Innovation Building High-Performance Teams and Organizational Culture Future Skills for Next-Gen Women Leaders Negotiation and Influence Strategies for Women Women in Media, Branding, and Storytelling Sustainable Leadership and Global Responsibility Leadership Ethics and Values in Modern Organizations Women in Education: Shaping Future Generations Innovation and Creativity in Leadership Networking for Growth: Building Meaningful Connections Women in Tech Startups: From Idea to Impact Executive Roundtable: Global Leadership Perspectives Fireside Chat: Inspiring Journeys of Women Leaders The Road Ahead for Visionary Women Leaders"
+            ],
+            "tickets": [
+                {
+                    "name": "Speaker Registration",
+                    "price": "$799.00"
+                },
+                {
+                    "name": "Speaker Registration plus 2 Nights Stay Addon",
+                    "price": "$1099.00"
+                },
+                {
+                    "name": "Speaker Registration plus 3 Nights Stay Addon",
+                    "price": "$1299.00"
+                },
+                {
+                    "name": "Virtual Speaker Registration",
+                    "price": "$399.00"
+                },
+                {
+                    "name": "Delegate Registration",
+                    "price": "$399.00"
+                },
+                {
+                    "name": "Exhibitor Registration",
+                    "price": "$1999.00"
+                },
+                {
+                    "name": "Audio - Video Presentation",
+                    "price": "$199.00"
+                }
+            ],
+            "days": [
+                "14 May Tokyo Day 1 Agenda",
+                "15 May Tokyo Day 2 Agenda",
+                "16 May Tokyo Day 3 Agenda",
+                "17 May Tokyo Day 4 Agenda"
+            ],
+            "sessions": [
+                {
+                    "time": "07:30 - 08:00",
+                    "title": "Opeening Ceremony"
+                },
+                {
+                    "time": "08:00 - 08:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "08:30 - 09:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "09:00 - 09:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "09:30 - 10:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "10:00 - 10:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "10:30 - 11:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "11:00 - 11:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "11:30 - 12:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "12:00 - 12:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "12:30 - 13:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "13:00 - 14:00",
+                    "title": "Lunch Break"
+                },
+                {
+                    "time": "14:00 - 14:30",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "14:30 - 15:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "15:00 - 15:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "15:30 - 16:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "16:00 - 16:30",
+                    "title": "Coffee Break"
+                },
+                {
+                    "time": "16:30 - 17:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "17:00 - 17:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "17:30 - 18:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "08:00 - 08:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "08:30 - 09:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "09:00 - 09:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "09:30 - 10:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "10:00 - 10:30",
+                    "title": "Coffee Break"
+                },
+                {
+                    "time": "10:30 - 11:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "11:00 - 11:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "11:30 - 12:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "12:00 - 12:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "12:30 - 13:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "13:00 - 14:00",
+                    "title": "Lunch Break"
+                },
+                {
+                    "time": "14:00 - 14:30",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "14:30 - 15:00",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "15:00 - 15:30",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "15:30 - 16:00",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "16:00 - 16:30",
+                    "title": "Coffee Break"
+                },
+                {
+                    "time": "16:30 - 17:00",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "17:00 - 17:30",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "17:30 - 18:00",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "08:00 - 08:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "08:30 - 09:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "09:00 - 09:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "09:30 - 10:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "10:00 - 10:30",
+                    "title": "Coffee Break"
+                },
+                {
+                    "time": "10:30 - 11:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "11:00 - 11:30",
+                    "title": "Keynote Speaker / Ayesha Hamid"
+                },
+                {
+                    "time": "11:30 - 12:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "12:00 - 12:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "12:30 - 13:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "13:00 - 14:00",
+                    "title": "Lunch Break"
+                },
+                {
+                    "time": "14:00 - 14:30",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "14:30 - 15:00",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "15:00 - 15:30",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "15:30 - 16:00",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "16:00 - 16:30",
+                    "title": "Coffee Break"
+                },
+                {
+                    "time": "16:30 - 17:00",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "17:00 - 17:30",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "17:30 - 18:00",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "08:00 - 08:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "07:30 - 08:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "08:00 - 08:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "08:30 - 09:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "09:00 - 09:30",
+                    "title": "Coffee Break"
+                },
+                {
+                    "time": "09:30 - 10:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "10:00 - 10:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "10:30 - 11:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "11:00 - 11:30",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "11:30 - 00:00",
+                    "title": "Keynote Speaker Slot Available"
+                },
+                {
+                    "time": "00:00 - 01:00",
+                    "title": "Lunch Break"
+                },
+                {
+                    "time": "01:00 - 01:30",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "01:30 - 02:00",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "02:00 - 02:30",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "02:30 - 03:00",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "03:00 - 03:30",
+                    "title": "Coffee Break"
+                },
+                {
+                    "time": "03:30 - 04:00",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "04:00 - 04:30",
+                    "title": "Speaker Slot Available"
+                },
+                {
+                    "time": "04:30 - 05:00",
+                    "title": "Speaker Slot Available"
+                }
+            ],
+            "hasDetail": true
+        },
+        {
             "slug": "rm-2027",
             "title": "Annual Global Forum on Resilient Minds & Mental Strength",
             "image": "/img/2022_12_MIND-1024x662.png",
