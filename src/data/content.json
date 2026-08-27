@@ -3670,6 +3670,11 @@
     ],
     "speakers": [
         {
+            "name": "Keira Brinton",
+            "role": "Keynote Speaker",
+            "image": "/img/Keira-Brinton.jpeg"
+        },
+        {
             "name": "Saren Keang",
             "role": "Keynote Speaker",
             "image": "/img/SarenKeang.jpeg"
