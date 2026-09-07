@@ -3670,6 +3670,11 @@
     ],
     "speakers": [
         {
+            "name": "Dr.Angela Thomas",
+            "role": "Keynote Speaker",
+            "image": "/img/Dr.Angela-Thomas.jpeg"
+        },
+        {
             "name": "Nadia Mamdouh",
             "role": "Keynote Speaker",
             "image": "/img/Nadia-Mamdouh.jpeg"
