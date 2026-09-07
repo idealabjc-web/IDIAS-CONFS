@@ -1151,7 +1151,7 @@
                 },
                 {
                     "time": "11:00 - 11:30",
-                    "title": "Keynote Speaker Slot Available"
+                    "title": "Keynote Speaker / Nadia Mamdouh"
                 },
                 {
                     "time": "11:30 - 12:00",
@@ -3669,6 +3669,11 @@
         }
     ],
     "speakers": [
+        {
+            "name": "Nadia Mamdouh",
+            "role": "Keynote Speaker",
+            "image": "/img/Nadia-Mamdouh.jpeg"
+        },
         {
             "name": "LeAnita Ragland-Brooks",
             "role": "Keynote Speaker",
