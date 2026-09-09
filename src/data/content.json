@@ -3680,6 +3680,11 @@
     ],
     "speakers": [
         {
+            "name": "Herdis Pala Palsdottir",
+            "role": "Speaker",
+            "image": "/img/Herdis-Pala-Palsdottir.jpeg"
+        },
+        {
             "name": "Sue Blackwell",
             "role": "Keynote Speaker",
             "image": "/img/Sue-Blackwell.jpeg"
