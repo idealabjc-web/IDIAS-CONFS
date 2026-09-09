@@ -375,12 +375,12 @@
             "slug": "13th-qwr",
             "title": "13th World Congress on Quantum Women Rise – Transformational Leadership 2026",
             "image": "/img/2024_04_Untitled-design-22.png",
-            "date": "25 Nov 2026 - 27 Nov 2026",
+            "date": "23 Nov 2026 - 27 Nov 2026",
             "location": "Dubai, UAE.",
             "time": null,
             "timezone": null,
             "description": [
-                "i-DIAS Conferences is organizing the 13th World Congress on Quantum Women Rise – Transformational Leadership 2026 set to take place on November 25, 26 & 27, 2026 in Dubai, UAE.",
+                "i-DIAS Conferences is organizing the 13th World Congress on Quantum Women Rise – Transformational Leadership 2026 set to take place on November 23, 24, 25, 26 & 27, 2026 in Dubai, UAE.",
                 "Welcome to our conference on ‘Quantum Women Rise – Transformational Leadership’ where we bring together thought leaders,experts, and advocates to explore the intersection of sustainability and women’s empowerment. Join us for insightful discussions on fostering a resilient future that empowers women economically, socially, and environmentally. Together, we’ll delve into sustainable strategies that promote gender equality, support women-led initiatives, and contribute to the overall development of communities. Be part of this transformative event, as we envision a world where sustainability and women’s empowerment go hand in hand for a brighter, more equitable future.",
                 "Theme : “Quantum Rise: The Next Frontier in Women’s Empowerment and Mental Well-being”",
                 "Historical Perspectives on Women’s Rights",
@@ -434,9 +434,11 @@
                 }
             ],
             "days": [
-                "25 Nov Dubai Event Day-1",
-                "26 Nov Dubai Event Day-2",
-                "27 Nov Dubai Event Day-3"
+                "23 Nov Dubai Event Day-1",
+                "24 Nov Dubai Event Day-2",
+                "25 Nov Dubai Event Day-3",
+                "26 Nov Dubai Event Day-4",
+                "27 Nov Dubai Event Day-5"
             ],
             "sessions": [
                 {
@@ -678,7 +680,7 @@
             "slug": "13th-smr",
             "title": "13th world congress on Spirituality, Mental Wellbeing & Resilience Psychology",
             "image": "/img/2024_05_5th-Spirituality.jpg",
-            "date": "25 Nov 2026 - 27 Nov 2026",
+            "date": "23 Nov 2026 - 27 Nov 2026",
             "location": "Dubai, UAE.",
             "time": null,
             "timezone": null,
@@ -739,9 +741,11 @@
                 }
             ],
             "days": [
-                "25 Nov Dubai Event Day-1",
-                "26 Nov Dubai Event Day-2",
-                "27 Nov Dubai Event Day-3"
+                "23 Nov Dubai Event Day-1",
+                "24 Nov Dubai Event Day-2",
+                "25 Nov Dubai Event Day-3",
+                "26 Nov Dubai Event Day-4",
+                "27 Nov Dubai Event Day-5"
             ],
             "sessions": [
                 {
@@ -983,7 +987,7 @@
             "slug": "13thlead-2026",
             "title": "13th International L.E.A.D Summit for Women: Leadership, Empowerment & Development",
             "image": "/img/2025_09_Nextgen-Women-Leadership.jpg",
-            "date": "25 Nov 2026 - 27 Nov 2026",
+            "date": "23 Nov 2026 - 27 Nov 2026",
             "location": "Dubai, UAE.",
             "time": null,
             "timezone": null,
@@ -1040,9 +1044,11 @@
                 }
             ],
             "days": [
-                "25 Nov Dubai Event Day-1",
-                "26 Nov Dubai Event Day-2",
-                "27 Nov Dubai Event Day-3"
+                "23 Nov Dubai Event Day-1",
+                "24 Nov Dubai Event Day-2",
+                "25 Nov Dubai Event Day-3",
+                "26 Nov Dubai Event Day-4",
+                "27 Nov Dubai Event Day-5"
             ],
             "sessions": [
                 {
@@ -1284,7 +1290,7 @@
             "slug": "wewins-2027",
             "title": "Global Summit on Women Empowerment – Women Influencers Network (W.E.W.I.N.S)",
             "image": "/img/2023_05_Women_Leadership_Empowerment_Banner-1024x512.jpg",
-            "date": "08 Mar 2027 - 11 Mar 2027",
+            "date": "08 Mar 2027 - 12 Mar 2027",
             "location": "Paris, France.",
             "time": null,
             "timezone": null,
@@ -3370,7 +3376,7 @@
             "slug": "wifi-2026",
             "title": "International Conference on Women Influencers and Feminism Inspiration  (W.I.F.I)",
             "image": "/img/2022_12_WIFI-NY-Banner.jpg",
-            "date": "25 Nov 2026 - 27 Nov 2026",
+            "date": "23 Nov 2026 - 27 Nov 2026",
             "location": "Dubai, UAE.",
             "time": "08:00 - 18:00",
             "timezone": "Asia/Dubai",
@@ -3669,6 +3675,21 @@
         }
     ],
     "speakers": [
+        {
+            "name": "Sue Blackwell",
+            "role": "Keynote Speaker",
+            "image": "/img/Sue-Blackwell.jpeg"
+        },
+        {
+            "name": "Azfar Haque",
+            "role": "Keynote Speaker",
+            "image": "/img/Azfar-Haque.jpeg"
+        },
+        {
+            "name": "Anjinsen Valamootoo",
+            "role": "Keynote Speaker",
+            "image": "/img/Anjinsen-Valamootoo.jpeg"
+        },
         {
             "name": "Dr.Angela Thomas",
             "role": "Keynote Speaker",
