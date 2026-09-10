@@ -3680,6 +3680,21 @@
     ],
     "speakers": [
         {
+            "name": "Dr. Kawsar Koodaruth",
+            "role": "Keynote Speaker",
+            "image": "/img/Dr.Kawsar-Koodaruth.jpeg"
+        },
+        {
+            "name": "Maisoon Zamir",
+            "role": "Keynote Speaker",
+            "image": "/img/Maisoon-Zamir.jpeg"
+        },
+        {
+            "name": "Pauline Corea",
+            "role": "Keynote Speaker",
+            "image": "/img/Pauline-Corea.jpeg"
+        },
+        {
             "name": "Herdis Pala Palsdottir",
             "role": "Speaker",
             "image": "/img/Herdis-Pala-Palsdottir.jpeg"
