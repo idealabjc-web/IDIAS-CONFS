@@ -3680,6 +3680,26 @@
     ],
     "speakers": [
         {
+            "name": "Clement M. Dwyer",
+            "role": "Keynote Speaker",
+            "image": "/img/Clement-M.Dwyer.jpeg"
+        },
+        {
+            "name": "Cathy Warshaw",
+            "role": "Keynote Speaker",
+            "image": "/img/Cathy-Warshaw.jpeg"
+        },
+        {
+            "name": "Dr. Manjula Pooja Shroff",
+            "role": "Keynote Speaker",
+            "image": "/img/Dr.Manjula-Pooja-Shroff.jpeg"
+        },
+        {
+            "name": "Matthew Byrne",
+            "role": "Keynote Speaker",
+            "image": "/img/Matthew-Byrne.jpeg"
+        },
+        {
             "name": "Dr. Kawsar Koodaruth",
             "role": "Keynote Speaker",
             "image": "/img/Dr.Kawsar-Koodaruth.jpeg"
