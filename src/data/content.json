@@ -3680,6 +3680,16 @@
     ],
     "speakers": [
         {
+            "name": "Jumana Parveen",
+            "role": "Keynote Speaker",
+            "image": "/img/Jumana-Parveen.jpeg"
+        },
+        {
+            "name": "Ashly Balza",
+            "role": "Keynote Speaker",
+            "image": "/img/Ashly-Balza.jpeg"
+        },
+        {
             "name": "Clement M. Dwyer",
             "role": "Keynote Speaker",
             "image": "/img/Clement-M.Dwyer.jpeg"
