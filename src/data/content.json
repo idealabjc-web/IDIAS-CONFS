@@ -3680,6 +3680,16 @@
     ],
     "speakers": [
         {
+            "name": "Pedro Ramos",
+            "role": "Keynote Speaker",
+            "image": "/img/Pedro-Ramos.jpeg"
+        },
+        {
+            "name": "Preity Savant",
+            "role": "Keynote Speaker",
+            "image": "/img/Preity-Savant.jpeg"
+        },
+        {
             "name": "Jumana Parveen",
             "role": "Keynote Speaker",
             "image": "/img/Jumana-Parveen.jpeg"
