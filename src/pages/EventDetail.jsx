@@ -56,6 +56,30 @@ export default function EventDetail() {
   const speakers = [...eventSpeakers, ...otherSpeakers].slice(0, 8)
   const bgY = reduce ? 0 : Math.min(y * 0.3, 240)
 
+  const theme =
+    event.theme ||
+    (event.description || []).find((p) => /^theme\s*:/i.test(p))?.replace(/^theme\s*:\s*/i, '') ||
+    null
+
+  const tracks =
+    event.tracks ||
+    event.topics ||
+    (event.description || []).filter(
+      (p) =>
+        p.length < 80 &&
+        !/^theme\s*:/i.test(p) &&
+        !/^(the goal|welcome to|our strategy|set against|through keynote|embark on|i-dias|under the theme)/i.test(p)
+    )
+
+  const narrative =
+    event.about ||
+    (event.description || []).filter(
+      (p) =>
+        !/^theme\s*:/i.test(p) &&
+        (p.length >= 80 ||
+          /^(the goal|welcome to|our strategy|set against|through keynote|embark on|i-dias)/i.test(p))
+    )
+
   const chips = [
     event.date && { icon: <Cal />, label: event.date },
     event.location && { icon: <Pin />, label: event.location },
@@ -107,6 +131,11 @@ export default function EventDetail() {
                 <a href="#tickets" className="btn-primary">
                   Register interest
                 </a>
+                {tracks.length > 0 && (
+                  <a href="#sessions" className="btn-outline">
+                    Explore sessions
+                  </a>
+                )}
                 {days.length > 0 && (
                   <a href="#programme" className="btn-outline">View programme</a>
                 )}
@@ -130,7 +159,27 @@ export default function EventDetail() {
         <div className="container-x grid gap-14 lg:grid-cols-[1fr_390px] lg:items-start">
           {/* main column */}
           <div className="min-w-0">
-            {event.description?.length > 0 ? (
+            {theme && (
+              <Reveal>
+                <div className="card relative mb-10 overflow-hidden border border-brand-pink/20 bg-gradient-to-br from-brand-purpleDeep via-brand-purple to-[#2A0E44] p-7 sm:p-9 text-white shadow-xl">
+                  <div className="noise absolute inset-0 opacity-40 pointer-events-none" />
+                  <div className="orb -right-10 -bottom-10 h-44 w-44 bg-brand-pink/25 blur-3xl pointer-events-none" />
+                  <div className="relative z-10">
+                    <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3.5 py-1 text-[11px] font-extrabold uppercase tracking-[0.2em] text-brand-pink backdrop-blur-md">
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                      </svg>
+                      Summit Theme
+                    </div>
+                    <blockquote className="mt-3.5 font-display text-xl sm:text-2xl font-black leading-snug tracking-tight text-white/95">
+                      {theme.startsWith('“') || theme.startsWith('"') ? theme : `“${theme}”`}
+                    </blockquote>
+                  </div>
+                </div>
+              </Reveal>
+            )}
+
+            {narrative?.length > 0 ? (
               <Reveal>
                 <div className="card p-8 sm:p-11">
                   <span className="eyebrow">About the congress</span>
@@ -138,13 +187,13 @@ export default function EventDetail() {
                     What this summit sets out to do
                   </h2>
                   <div className="space-y-5">
-                    {event.description.map((p, i) => (
+                    {narrative.map((p, i) => (
                       <p key={i} className="text-[15px] leading-[1.85] text-ink-soft">{p}</p>
                     ))}
                   </div>
                 </div>
               </Reveal>
-            ) : (
+            ) : !theme && tracks.length === 0 ? (
               <Reveal>
                 <div className="card border border-dashed border-brand-purple/20 p-8 sm:p-11">
                   <span className="eyebrow">About the congress</span>
@@ -161,6 +210,65 @@ export default function EventDetail() {
                   </Link>
                 </div>
               </Reveal>
+            ) : null}
+
+            {/* Scientific Sessions & Tracks */}
+            {tracks.length > 0 && (
+              <div id="sessions" className="mt-14 scroll-mt-28">
+                <Reveal>
+                  <div className="card p-8 sm:p-11">
+                    <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
+                      <div>
+                        <span className="eyebrow">Scope & Scientific Tracks</span>
+                        <h2 className="text-2xl font-extrabold text-brand-purple sm:text-3xl">
+                          Conference Sessions & Topics
+                        </h2>
+                      </div>
+                      <span className="rounded-full bg-brand-purple/[0.07] px-4 py-1.5 text-xs font-bold text-brand-purple">
+                        {tracks.length} sessions
+                      </span>
+                    </div>
+
+                    <p className="mb-8 text-[15px] leading-relaxed text-ink-soft">
+                      The summit welcomes abstracts, research presentations, clinical innovations, and case discussions across the following thematic sessions:
+                    </p>
+
+                    <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
+                      {tracks.map((t, i) => (
+                        <div
+                          key={i}
+                          className="group flex items-center gap-3 rounded-2xl border border-brand-purple/10 bg-white p-3.5 transition-all duration-300 hover:border-brand-pink/50 hover:bg-brand-purple/[0.02] hover:shadow-md"
+                        >
+                          <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-xl bg-brand-purple/[0.06] text-[11px] font-black text-brand-purple group-hover:bg-brand-pink group-hover:text-white transition-colors duration-300">
+                            {String(i + 1).padStart(2, '0')}
+                          </span>
+                          <span className="text-[13px] font-bold leading-snug text-brand-purple group-hover:text-brand-violet transition-colors">
+                            {t}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+
+                    <div className="mt-10 rounded-2xl bg-brand-purple/[0.04] p-6 sm:p-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 border border-brand-purple/10">
+                      <div>
+                        <h4 className="text-base font-extrabold text-brand-purple">
+                          Interested in presenting in one of these sessions?
+                        </h4>
+                        <p className="mt-1 text-[13px] text-ink-soft">
+                          Submit an abstract or register as a speaker to share your research and insights with global peers.
+                        </p>
+                      </div>
+                      <Link
+                        to="/contact"
+                        state={{ subject: `${event.title} - Session Proposal` }}
+                        className="btn-primary shrink-0 !py-3 !px-6 !text-xs whitespace-nowrap"
+                      >
+                        Submit abstract
+                      </Link>
+                    </div>
+                  </div>
+                </Reveal>
+              </div>
             )}
 
             {/* Programme */}
