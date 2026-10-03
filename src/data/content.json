@@ -3464,6 +3464,66 @@
             "hasDetail": false
         },
         {
+            "slug": "quantum-qrtl-2027",
+            "title": "Quantum Rise: The Future of Transformational Women Leaders (Q.R.T.L) 2027",
+            "image": "/img/2023_11_Women-Leadership-Banner-1024x635.jpg",
+            "date": "11 Nov 2027 - 13 Nov 2027",
+            "location": "Toronto, Canada.",
+            "time": null,
+            "timezone": null,
+            "description": [],
+            "tickets": [
+                {
+                    "name": "Speaker Registration",
+                    "price": "$799.00"
+                },
+                {
+                    "name": "Speaker Registration plus 2 Nights Stay Addon",
+                    "price": "$1099.00"
+                },
+                {
+                    "name": "Speaker Registration plus 3 Nights Stay Addon",
+                    "price": "$1299.00"
+                },
+                {
+                    "name": "Virtual Speaker Registration",
+                    "price": "$399.00"
+                },
+                {
+                    "name": "Delegate Registration",
+                    "price": "$399.00"
+                },
+                {
+                    "name": "Exhibitor Registration",
+                    "price": "$1999.00"
+                },
+                {
+                    "name": "Audio - Video Presentation",
+                    "price": "$199.00"
+                },
+                {
+                    "name": "Attendee Registration",
+                    "price": "$399.00"
+                },
+                {
+                    "name": "Attendee Registration plus 1 Night Stay Addon",
+                    "price": "$599.00"
+                },
+                {
+                    "name": "Attendee Registration plus 2 Night Stay Addon",
+                    "price": "$699.00"
+                },
+                {
+                    "name": "Attendee Registration plus 3 Night Stay Addon",
+                    "price": "$799.00"
+                }
+            ],
+            "days": [],
+            "sessions": [],
+            "hasDetail": false,
+            "sharedTicketsFrom": "Quantum Summit on Spirituality, Mental Wellbeing & Resilience Psychology (Q.S.M.R.P)"
+        },
+        {
             "slug": "hl-2027",
             "title": "International Congress on Holistic Wellness & Life Balance (SheBalance Summit)",
             "image": "/img/2026_04_HL-Banner-1024x643.jpg",
