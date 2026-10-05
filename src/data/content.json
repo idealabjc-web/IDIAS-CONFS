@@ -4158,6 +4158,11 @@
     ],
     "speakers": [
         {
+            "name": "Sonia Fiuz",
+            "role": "Keynote Speaker",
+            "image": "/img/Sonia-Fiuz.jpg"
+        },
+        {
             "name": "Pedro Ramos",
             "role": "Keynote Speaker",
             "image": "/img/Pedro-Ramos.jpeg"
