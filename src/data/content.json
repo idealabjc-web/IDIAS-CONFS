@@ -4158,6 +4158,21 @@
     ],
     "speakers": [
         {
+            "name": "Mia Godfrey",
+            "role": "Keynote Speaker",
+            "image": "/img/Mia-Godfrey.jpeg"
+        },
+        {
+            "name": "Joanna Whittaker",
+            "role": "Keynote Speaker",
+            "image": "/img/Joanna-Whittaker.jpeg"
+        },
+        {
+            "name": "Allison Teicher Fahrbach",
+            "role": "Keynote Speaker",
+            "image": "/img/Allison-Teicher-Fahrbach.jpeg"
+        },
+        {
             "name": "Sonia Fiuz",
             "role": "Keynote Speaker",
             "image": "/img/Sonia-Fiuz.jpg"
