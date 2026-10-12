@@ -4403,6 +4403,11 @@
     ],
     "speakers": [
         {
+            "name": "Kyle Mathis",
+            "role": "Keynote Speaker",
+            "image": "/img/Kyle-Mathis.jpeg"
+        },
+        {
             "name": "Preethi Balasubramanian",
             "role": "Keynote Speaker",
             "image": "/img/Preethi-Balasubramanian.jpeg"
