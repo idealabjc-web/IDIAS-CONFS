@@ -4403,6 +4403,11 @@
     ],
     "speakers": [
         {
+            "name": "Kadine Watson",
+            "role": "Keynote Speaker",
+            "image": "/img/Kadine-Watson.jpeg"
+        },
+        {
             "name": "Kyle Mathis",
             "role": "Keynote Speaker",
             "image": "/img/Kyle-Mathis.jpeg"
