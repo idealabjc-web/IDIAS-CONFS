@@ -4403,6 +4403,21 @@
     ],
     "speakers": [
         {
+            "name": "Tomáš Hájek",
+            "role": "Keynote Speaker",
+            "image": "/img/Tomáš-Hájek.jpeg"
+        },
+        {
+            "name": "Camilla MaRa",
+            "role": "Keynote Speaker",
+            "image": "/img/Camilla-MaRa.jpeg"
+        },
+        {
+            "name": "Annabelle Hartnell",
+            "role": "Keynote Speaker",
+            "image": "/img/Annabelle-Hartnell.jpeg"
+        },
+        {
             "name": "Kadine Watson",
             "role": "Keynote Speaker",
             "image": "/img/Kadine-Watson.jpeg"
