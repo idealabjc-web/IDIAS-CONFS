@@ -4403,6 +4403,11 @@
     ],
     "speakers": [
         {
+            "name": "Cynthia Milani",
+            "role": "Keynote Speaker",
+            "image": "/img/Cynthia-Milani.jpeg"
+        },
+        {
             "name": "Tomáš Hájek",
             "role": "Keynote Speaker",
             "image": "/img/Tomáš-Hájek.jpeg"
