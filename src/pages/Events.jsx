@@ -11,6 +11,7 @@ export default function Events() {
   const [q, setQ] = useState('')
   const [city, setCity] = useState('all')
   const [year, setYear] = useState('all')
+  const [format, setFormat] = useState('all')
 
   const cities = useMemo(
     () => ['all', ...Array.from(new Set(events.map((e) => e.location).filter(Boolean))).sort()],
@@ -26,17 +27,23 @@ export default function Events() {
   }, [events])
 
   const filtered = events.filter((e) => {
+    const isVirt = Boolean(e.isVirtual || e.virtual)
     const okQ =
       !q ||
       e.title.toLowerCase().includes(q.toLowerCase()) ||
-      (e.location || '').toLowerCase().includes(q.toLowerCase())
+      (e.location || '').toLowerCase().includes(q.toLowerCase()) ||
+      (isVirt && ('virtual'.includes(q.toLowerCase()) || 'online'.includes(q.toLowerCase())))
     const okCity = city === 'all' || e.location === city
     const okYear = year === 'all' || (e.date || '').includes(year)
-    return okQ && okCity && okYear
+    const okFormat =
+      format === 'all' ||
+      (format === 'virtual' && isVirt) ||
+      (format === 'in-person' && !isVirt)
+    return okQ && okCity && okYear && okFormat
   })
 
-  const reset = () => { setQ(''); setCity('all'); setYear('all') }
-  const active = q || city !== 'all' || year !== 'all'
+  const reset = () => { setQ(''); setCity('all'); setYear('all'); setFormat('all') }
+  const active = q || city !== 'all' || year !== 'all' || format !== 'all'
 
   return (
     <>
@@ -66,7 +73,7 @@ export default function Events() {
                 />
               </div>
 
-              <div className="flex gap-3">
+              <div className="flex flex-wrap gap-3 sm:flex-nowrap">
                 <select
                   value={city}
                   onChange={(e) => setCity(e.target.value)}
@@ -86,6 +93,16 @@ export default function Events() {
                   {years.map((yv) => (
                     <option key={yv} value={yv}>{yv === 'all' ? 'Any year' : yv}</option>
                   ))}
+                </select>
+                <select
+                  value={format}
+                  onChange={(e) => setFormat(e.target.value)}
+                  aria-label="Filter by event format"
+                  className="rounded-full bg-brand-purple/[0.04] px-5 py-3.5 text-sm font-medium outline-none ring-1 ring-transparent transition focus:bg-white focus:ring-2 focus:ring-brand-pink/40"
+                >
+                  <option value="all">All formats</option>
+                  <option value="virtual">Virtual only</option>
+                  <option value="in-person">In-person only</option>
                 </select>
               </div>
             </div>

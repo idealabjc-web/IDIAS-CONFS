@@ -35,8 +35,18 @@ function dateBadge(date) {
   return { day: m[1], mon: m[2].toUpperCase() }
 }
 
+export function VirtualIcon(props) {
+  return (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0" {...props}>
+      <polygon points="23 7 16 12 23 17 23 7" />
+      <rect x="1" y="5" width="15" height="14" rx="2" ry="2" />
+    </svg>
+  )
+}
+
 export default function EventCard({ event, featured = false }) {
   const badge = dateBadge(event.date)
+  const isVirtual = Boolean(event.isVirtual || event.virtual)
 
   return (
     <article className="card group flex flex-col">
@@ -57,6 +67,16 @@ export default function EventCard({ event, featured = false }) {
           </span>
         )}
 
+        {isVirtual && (
+          <span
+            title="Virtual Conference"
+            className="absolute right-5 top-5 inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-brand-pink to-brand-violet px-3 py-1.5 text-[11px] font-black uppercase tracking-wider text-white shadow-lg shadow-brand-pink/35 ring-2 ring-white/60 backdrop-blur-md transition-transform duration-300 group-hover:scale-105"
+          >
+            <VirtualIcon className="animate-pulse" />
+            <span>Virtual</span>
+          </span>
+        )}
+
         {event.location && (
           <span className="absolute bottom-5 left-5 inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3.5 py-1.5 text-[11px] font-bold uppercase tracking-wide text-white ring-1 ring-white/25 backdrop-blur-md">
             <Pin />
@@ -66,12 +86,20 @@ export default function EventCard({ event, featured = false }) {
       </Link>
 
       <div className="flex flex-1 flex-col p-7">
-        {event.date && (
-          <p className="mb-3.5 inline-flex items-center gap-2 text-[13px] font-semibold text-brand-pink">
-            <Cal />
-            {event.date}
-          </p>
-        )}
+        <div className="mb-3.5 flex flex-wrap items-center gap-2.5">
+          {event.date && (
+            <p className="inline-flex items-center gap-2 text-[13px] font-semibold text-brand-pink">
+              <Cal />
+              {event.date}
+            </p>
+          )}
+          {isVirtual && (
+            <span className="inline-flex items-center gap-1 rounded-full bg-brand-pink/10 px-2.5 py-0.5 text-[11px] font-bold uppercase tracking-wider text-brand-pink ring-1 ring-brand-pink/20">
+              <VirtualIcon width="12" height="12" />
+              Virtual Summit
+            </span>
+          )}
+        </div>
 
         <h3 className={`font-extrabold leading-snug text-brand-purple transition-colors duration-300 group-hover:text-brand-violet ${featured ? 'text-2xl' : 'text-lg'}`}>
           <Link to={`/events/${event.slug}`}>{event.title}</Link>
