@@ -1767,7 +1767,7 @@
     },
     {
       "slug": "wewins-2027",
-      "title": "Global Summit on Women Empowerment – Women Influencers Network (W.E.W.I.N.S)",
+      "title": "Global Summit on Women Empowerment – Women Influencers Network (W.E.W.I.N.S) 2027",
       "image": "/img/2023_05_Women_Leadership_Empowerment_Banner-1024x512.jpg",
       "date": "08 Mar 2027 - 12 Mar 2027",
       "location": "Paris, France.",
@@ -1838,7 +1838,7 @@
         },
         {
           "time": "09:30 - 10:00",
-          "title": "Keynote Speaker Slot Available"
+          "title": "Keynote Speaker / Felicia Antoinette Knowles, MBA"
         },
         {
           "time": "10:00 - 10:30",
@@ -2280,7 +2280,7 @@
         },
         {
           "time": "09:30 - 10:00",
-          "title": "Keynote Speaker Slot Available"
+          "title": "Keynote Speaker / Grace Edwards"
         },
         {
           "time": "10:00 - 10:30",
@@ -3918,7 +3918,7 @@
       "slug": "quantum-qthrm-2027",
       "title": "Quantum Summit on Trauma, Healing & Resilient Minds 2027 (Q.T.H.R.M)",
       "image": "/img/2022_12_TEAM-2-1024x662.png",
-      "date": "11 May 2027 - 12 May 2027",
+      "date": "24 May 2027 - 25 May 2027",
       "location": "Toronto, Canada.",
       "time": null,
       "timezone": null,
@@ -3978,7 +3978,7 @@
       "slug": "quantum-qsmrp-2027",
       "title": "Quantum Summit on Spirituality, Mental Wellbeing & Resilience Psychology (Q.S.M.R.P) 2027",
       "image": "/img/2023_01_PPMH-1024x662.png",
-      "date": "11 May 2027 - 12 May 2027",
+      "date": "24 May 2027 - 25 May 2027",
       "location": "Toronto, Canada.",
       "time": "08:00 - 18:00",
       "timezone": "America/Toronto",
@@ -4043,7 +4043,7 @@
       "slug": "quantum-qwl-2027",
       "title": "Quantum Women Leadership: Igniting the Next Era of Visionary Leaders (Q.W.L) 2027",
       "image": "/img/2025_09_Quantum-Women-Leadership-Conclave.jpg",
-      "date": "11 May 2027 - 12 May 2027",
+      "date": "24 May 2027 - 25 May 2027",
       "location": "Toronto, Canada.",
       "time": null,
       "timezone": null,
@@ -4186,66 +4186,6 @@
       "days": [],
       "sessions": [],
       "hasDetail": false
-    },
-    {
-      "slug": "quantum-qrtl-2027",
-      "title": "Quantum Rise: The Future of Transformational Women Leaders (Q.R.T.L) 2027",
-      "image": "/img/2023_11_Women-Leadership-Banner-1024x635.jpg",
-      "date": "11 Nov 2027 - 13 Nov 2027",
-      "location": "Toronto, Canada.",
-      "time": null,
-      "timezone": null,
-      "description": [],
-      "tickets": [
-        {
-          "name": "Speaker Registration",
-          "price": "$799.00"
-        },
-        {
-          "name": "Speaker Registration plus 2 Nights Stay Addon",
-          "price": "$1099.00"
-        },
-        {
-          "name": "Speaker Registration plus 3 Nights Stay Addon",
-          "price": "$1299.00"
-        },
-        {
-          "name": "Virtual Speaker Registration",
-          "price": "$399.00"
-        },
-        {
-          "name": "Delegate Registration",
-          "price": "$399.00"
-        },
-        {
-          "name": "Exhibitor Registration",
-          "price": "$1999.00"
-        },
-        {
-          "name": "Audio - Video Presentation",
-          "price": "$199.00"
-        },
-        {
-          "name": "Attendee Registration",
-          "price": "$399.00"
-        },
-        {
-          "name": "Attendee Registration plus 1 Night Stay Addon",
-          "price": "$599.00"
-        },
-        {
-          "name": "Attendee Registration plus 2 Night Stay Addon",
-          "price": "$699.00"
-        },
-        {
-          "name": "Attendee Registration plus 3 Night Stay Addon",
-          "price": "$799.00"
-        }
-      ],
-      "days": [],
-      "sessions": [],
-      "hasDetail": false,
-      "sharedTicketsFrom": "Quantum Summit on Spirituality, Mental Wellbeing & Resilience Psychology (Q.S.M.R.P)"
     },
     {
       "slug": "hl-2027",
@@ -4805,7 +4745,12 @@
   ],
   "speakers": [
     {
-      "name": "Felicia Antoinette Knowles,MBA",
+      "name": "Grace Edwards",
+      "role": "Keynote Speaker",
+      "image": "/img/Grace-Edwards.jpeg"
+    },
+    {
+      "name": "Felicia Antoinette Knowles, MBA",
       "role": "Keynote Speaker",
       "image": "/img/Felicia-Antoinette-Knowles.jpeg"
     },
