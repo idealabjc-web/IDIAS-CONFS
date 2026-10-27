@@ -197,7 +197,7 @@ export default function EventDetail() {
         </div>
       </section>
 
-      {/* ---------------- AGENDA POSTERS (virtual events) ---------------- */}
+      {/* ---------------- AGENDA POSTERS ---------------- */}
       {event.agendaImages?.length > 0 && (
         <section id="agenda" className="scroll-mt-24 bg-cream pt-20 lg:pt-28">
           <div className="container-x">
@@ -206,7 +206,7 @@ export default function EventDetail() {
                 <div>
                   <span className="eyebrow">Tentative agenda</span>
                   <h2 className="text-2xl font-extrabold text-brand-purple sm:text-3xl">
-                    Global Virtual Summit 2026 · 18–20 November
+                    {event.title} · {event.date}
                   </h2>
                 </div>
                 <p className="text-[13px] font-semibold text-ink-soft">
@@ -228,7 +228,7 @@ export default function EventDetail() {
                     >
                       <img
                         src={a.src}
-                        alt={`Global Virtual Summit 2026 agenda – ${a.label}`}
+                        alt={`${event.title} agenda – ${a.label}`}
                         loading="lazy"
                         className="block h-auto w-full transition-transform duration-700 group-hover:scale-[1.03]"
                       />
@@ -241,7 +241,7 @@ export default function EventDetail() {
                     </button>
                     <figcaption className="flex items-center justify-between gap-3 px-1 pt-4">
                       <span className="inline-flex items-center gap-2 text-[14px] font-extrabold text-brand-purple">
-                        <Clock />
+                        {/room/i.test(a.label) ? <Pin /> : <Clock />}
                         {a.label}
                       </span>
                       <a
@@ -280,7 +280,7 @@ export default function EventDetail() {
           </button>
           <img
             src={zoomed.src}
-            alt={`Global Virtual Summit 2026 agenda – ${zoomed.label}`}
+            alt={`${event.title} agenda – ${zoomed.label}`}
             onClick={(e) => e.stopPropagation()}
             className="my-auto h-auto w-full max-w-6xl rounded-xl shadow-2xl"
           />

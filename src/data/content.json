@@ -1311,7 +1311,18 @@
           "title": "Speaker Slot Available"
         }
       ],
-      "hasDetail": true
+      "hasDetail": true,
+      "agendaImage": "/img/pad(2).jpeg",
+      "agendaImages": [
+        {
+          "src": "/img/pad(2).jpeg",
+          "label": "Room-1 (Dubai, UAE)"
+        },
+        {
+          "src": "/img/pad (1).jpeg",
+          "label": "Room-2 (Dubai, UAE)"
+        }
+      ]
     },
     {
       "slug": "13th-smr",
@@ -1539,7 +1550,18 @@
           "title": "Speaker Slot Available"
         }
       ],
-      "hasDetail": true
+      "hasDetail": true,
+      "agendaImage": "/img/pad(2).jpeg",
+      "agendaImages": [
+        {
+          "src": "/img/pad(2).jpeg",
+          "label": "Room-1 (Dubai, UAE)"
+        },
+        {
+          "src": "/img/pad (1).jpeg",
+          "label": "Room-2 (Dubai, UAE)"
+        }
+      ]
     },
     {
       "slug": "13thlead-2026",
@@ -1763,7 +1785,18 @@
           "title": "Speaker Slot Available"
         }
       ],
-      "hasDetail": true
+      "hasDetail": true,
+      "agendaImage": "/img/pad(2).jpeg",
+      "agendaImages": [
+        {
+          "src": "/img/pad(2).jpeg",
+          "label": "Room-1 (Dubai, UAE)"
+        },
+        {
+          "src": "/img/pad (1).jpeg",
+          "label": "Room-2 (Dubai, UAE)"
+        }
+      ]
     },
     {
       "slug": "wewins-2027",
@@ -4437,7 +4470,18 @@
           "title": "Speaker Slot Available"
         }
       ],
-      "hasDetail": true
+      "hasDetail": true,
+      "agendaImage": "/img/pad(2).jpeg",
+      "agendaImages": [
+        {
+          "src": "/img/pad(2).jpeg",
+          "label": "Room-1 (Dubai, UAE)"
+        },
+        {
+          "src": "/img/pad (1).jpeg",
+          "label": "Room-2 (Dubai, UAE)"
+        }
+      ]
     },
     {
       "slug": "wifi-2027",
@@ -4744,6 +4788,11 @@
     }
   ],
   "speakers": [
+    {
+      "name": "LaTronda Latrice",
+      "role": "Keynote Speaker",
+      "image": "/img/LaTronda-Latrice.jpeg"
+    },
     {
       "name": "Grace Edwards",
       "role": "Keynote Speaker",
