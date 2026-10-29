@@ -601,11 +601,11 @@
       "agendaImage": "/img/Global-Virtual-Summit-2026-Agenda.jpg",
       "agendaImages": [
         {
-          "src": "/img/Agenda1.jpeg",
+          "src": "/img/virtualA.jpeg",
           "label": "Paris Time Zone (CEST)"
         },
         {
-          "src": "/img/Agenda2.jpeg",
+          "src": "/img/virtualB.jpeg",
           "label": "EST Time Zone"
         }
       ]
@@ -839,11 +839,11 @@
       "agendaImage": "/img/Global-Virtual-Summit-2026-Agenda.jpg",
       "agendaImages": [
         {
-          "src": "/img/Agenda1.jpeg",
+          "src": "/img/virtualA.jpeg",
           "label": "Paris Time Zone (CEST)"
         },
         {
-          "src": "/img/Agenda2.jpeg",
+          "src": "/img/virtualB.jpeg",
           "label": "EST Time Zone"
         }
       ]
@@ -1078,11 +1078,11 @@
       "agendaImage": "/img/Global-Virtual-Summit-2026-Agenda.jpg",
       "agendaImages": [
         {
-          "src": "/img/Agenda1.jpeg",
+          "src": "/img/virtualA.jpeg",
           "label": "Paris Time Zone (CEST)"
         },
         {
-          "src": "/img/Agenda2.jpeg",
+          "src": "/img/virtualB.jpeg",
           "label": "EST Time Zone"
         }
       ]
