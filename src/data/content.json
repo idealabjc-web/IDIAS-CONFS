@@ -1874,7 +1874,7 @@
           "title": "Keynote Speaker / Felicia Antoinette Knowles, MBA"
         },
         {
-          "time": "10:00 - 10:30",
+          "time": "12:00 - 12:30",
           "title": "Keynote Speaker / LaTronda Latrice"
         },
         {
@@ -3473,7 +3473,7 @@
         },
         {
           "time": "10:30 - 11:00",
-          "title": "Keynote Speaker Slot Available"
+          "title": "Keynote Speaker / GLADYS AGUIRRE DREXEL"
         },
         {
           "time": "11:00 - 11:30",
@@ -4789,7 +4789,57 @@
   ],
   "speakers": [
     {
-      "name": "LaTronda Latrice",
+      "name": "GLADYS AGUIRRE DREXEL",
+      "role": "Keynote Speaker",
+      "image": "/img/speakers/GLADYS-AGUIRRE-DREXEL.jpeg"
+    },
+    {
+      "name": "Ayesha Hamid",
+      "role": "Keynote Speaker",
+      "image": "/img/speakers/Ayesha-Hamid.jpeg"
+    },
+    {
+      "name": "Chris Steindorf",
+      "role": "Keynote Speaker",
+      "image": "/img/speakers/Chris-Steindorf.jpeg"
+    },
+    {
+      "name": "Dr. Taruna Khatta",
+      "role": "Keynote Speaker",
+      "image": "/img/speakers/Dr.Taruna-Khatta.jpeg"
+    },
+    {
+      "name": "Faten Abdullatif",
+      "role": "Keynote Speaker",
+      "image": "/img/speakers/Faten-Abdullatif.jpeg"
+    },
+    {
+      "name": "Heba Mehyar",
+      "role": "Keynote Speaker",
+      "image": "/img/speakers/Heba-Mehyar.jpeg"
+    },
+    {
+      "name": "Joyce Hunter",
+      "role": "Keynote Speaker",
+      "image": "/img/speakers/Joyce-Hunter.jpeg"
+    },
+    {
+      "name": "Nichola Cruise",
+      "role": "Keynote Speaker",
+      "image": "/img/speakers/Nichola-Cruise.jpeg"
+    },
+    {
+      "name": "Susan Blyskal",
+      "role": "Keynote Speaker",
+      "image": "/img/speakers/Susan-Blyskal.jpeg"
+    },
+    {
+      "name": "Tricia Andreassen",
+      "role": "Keynote Speaker",
+      "image": "/img/speakers/Tricia-Andreassen.jpeg"
+    },
+    {
+      "name": "Dr.LaTronda Latrice",
       "role": "Keynote Speaker",
       "image": "/img/LaTronda-Latrice.jpeg"
     },
