@@ -4897,6 +4897,11 @@
   ],
   "speakers": [
     {
+      "name": "Rahma Tariq",
+      "role": "Keynote Speaker",
+      "image": "/img/speakers/Rahma-Tariq.jpeg"
+    },
+    {
       "name": "GLADYS AGUIRRE DREXEL",
       "role": "Keynote Speaker",
       "image": "/img/speakers/GLADYS-AGUIRRE-DREXEL.jpeg"
@@ -4985,11 +4990,6 @@
       "name": "Kadine Watson",
       "role": "Keynote Speaker",
       "image": "/img/Kadine-Watson.jpeg"
-    },
-    {
-      "name": "Kyle Mathis",
-      "role": "Keynote Speaker",
-      "image": "/img/Kyle-Mathis.jpeg"
     },
     {
       "name": "Preethi Balasubramanian",
