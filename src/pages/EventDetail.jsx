@@ -7,7 +7,7 @@ import {
 } from '../lib/events.js'
 import Img from '../components/Img.jsx'
 import Reveal from '../components/Reveal.jsx'
-import Countdown from '../components/Countdown.jsx'
+import { VaporCountdown } from '@/components/ui/countdown-vapor-digits'
 import EventCard, { Pin, Cal } from '../components/EventCard.jsx'
 import SectionTitle from '../components/SectionTitle.jsx'
 import { useScrollY, prefersReducedMotion } from '../hooks/useMotion.js'
@@ -187,10 +187,35 @@ export default function EventDetail() {
 
             {start && (
               <div className="lg:pb-2">
-                <p className="mb-4 text-[11px] font-bold uppercase tracking-[0.26em] text-white/45">
-                  Doors open in
-                </p>
-                <Countdown target={start} />
+                <div className="relative w-full overflow-hidden rounded-3xl border border-white/20 bg-gradient-to-br from-white/[0.12] via-white/[0.07] to-white/[0.03] p-6 sm:p-7 backdrop-blur-2xl shadow-lift">
+                  {/* Glowing ambient orbs matching website theme */}
+                  <div className="pointer-events-none absolute -right-12 -top-12 h-36 w-36 rounded-full bg-brand-pink/20 blur-2xl" />
+                  <div className="pointer-events-none absolute -left-12 -bottom-12 h-36 w-36 rounded-full bg-brand-violet/25 blur-2xl" />
+
+                  <div className="relative z-10">
+                    <div className="mb-5 flex flex-wrap items-center justify-between gap-2 border-b border-white/10 pb-3.5">
+                      <div className="flex items-center gap-2.5">
+                        <span className="relative flex h-2.5 w-2.5">
+                          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-pink opacity-80" />
+                          <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-brand-pink" />
+                        </span>
+                        <span className="text-[11px] font-extrabold uppercase tracking-[0.25em] text-white/90">
+                          Doors open in
+                        </span>
+                      </div>
+                      <span className="rounded-full border border-brand-pink/30 bg-brand-pink/15 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-brand-pink">
+                        {event.date?.split('-')[0]?.trim()}
+                      </span>
+                    </div>
+
+                    <div className="flex justify-center py-1">
+                      <VaporCountdown
+                        targetDate={start}
+                        className="font-display text-white"
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
             )}
           </div>
@@ -215,7 +240,7 @@ export default function EventDetail() {
               </div>
             </Reveal>
 
-            <div className="grid gap-8 md:grid-cols-2">
+            <div className={event.agendaImages.length === 1 ? 'mx-auto max-w-3xl' : 'grid gap-8 md:grid-cols-2'}>
               {event.agendaImages.map((a, i) => (
                 <Reveal key={a.src} delay={i * 90} variant="zoom">
                   <figure className="card group overflow-hidden p-3 sm:p-4">

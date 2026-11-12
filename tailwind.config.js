@@ -1,9 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{js,jsx}'],
+  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       colors: {
+        'ns-muted': 'var(--ns-muted)',
+        foreground: 'var(--foreground)',
+        border: 'var(--border)',
+        accent: 'var(--accent)',
+        background: 'var(--background)',
         // Sampled from the live Exhibz theme stylesheet + Elementor global kit
         brand: {
           purple: '#3b1d82',

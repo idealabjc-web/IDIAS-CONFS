@@ -2206,7 +2206,14 @@
           "title": "Speaker Slot Available"
         }
       ],
-      "hasDetail": true
+      "hasDetail": true,
+      "agendaImage": "/img/Paris-Agenda.jpeg",
+      "agendaImages": [
+        {
+          "src": "/img/Paris-Agenda.jpeg",
+          "label": "Paris, France (CET)"
+        }
+      ]
     },
     {
       "slug": "herlead-2027",
@@ -2576,7 +2583,14 @@
           "title": "Speaker Slot Available"
         }
       ],
-      "hasDetail": true
+      "hasDetail": true,
+      "agendaImage": "/img/Paris-Agenda.jpeg",
+      "agendaImages": [
+        {
+          "src": "/img/Paris-Agenda.jpeg",
+          "label": "Paris, France (CET)"
+        }
+      ]
     },
     {
       "slug": "herlead-2028",
@@ -3308,7 +3322,14 @@
         }
       ],
       "hasDetail": false,
-      "sharedProgrammeFrom": "Global Summit on Women Empowerment – Women Influencers Network (W.E.W.I.N.S)"
+      "sharedProgrammeFrom": "Global Summit on Women Empowerment – Women Influencers Network (W.E.W.I.N.S)",
+      "agendaImage": "/img/Paris-Agenda.jpeg",
+      "agendaImages": [
+        {
+          "src": "/img/Paris-Agenda.jpeg",
+          "label": "Paris, France (CET)"
+        }
+      ]
     },
     {
       "slug": "icpmhhp-2027",
@@ -3452,7 +3473,14 @@
           "title": "Speaker Slot Available"
         }
       ],
-      "hasDetail": true
+      "hasDetail": true,
+      "agendaImage": "/img/Paris-Agenda.jpeg",
+      "agendaImages": [
+        {
+          "src": "/img/Paris-Agenda.jpeg",
+          "label": "Paris, France (CET)"
+        }
+      ]
     },
     {
       "slug": "lead-2027",
@@ -4892,7 +4920,14 @@
           "title": "Speaker Slot Available"
         }
       ],
-      "hasDetail": true
+      "hasDetail": true,
+      "agendaImage": "/img/Paris-Agenda.jpeg",
+      "agendaImages": [
+        {
+          "src": "/img/Paris-Agenda.jpeg",
+          "label": "Paris, France (CET)"
+        }
+      ]
     }
   ],
   "speakers": [

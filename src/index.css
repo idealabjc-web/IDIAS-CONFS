@@ -5,6 +5,18 @@
 @layer base {
   :root {
     --header-h: 84px;
+    --ns-muted: #8a8a96;
+    --foreground: #ffffff;
+    --background: #150a30;
+    --border: rgba(255, 255, 255, 0.15);
+    --accent: rgba(255, 255, 255, 0.08);
+  }
+  .dark {
+    --ns-muted: #8f8f8f;
+    --foreground: #ededed;
+    --background: #0a0518;
+    --border: rgba(255, 255, 255, 0.2);
+    --accent: rgba(255, 255, 255, 0.12);
   }
   html {
     scroll-behavior: smooth;
