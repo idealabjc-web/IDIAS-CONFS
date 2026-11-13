@@ -2964,12 +2964,50 @@
     {
       "slug": "rm-2027",
       "title": "Annual Global Forum on Resilient Minds & Mental Strength",
+      "theme": "Building Resilient Minds: Empowering People, Strengthening Communities, and Shaping a Mentally Stronger Future.",
       "image": "/img/2022_12_MIND-1024x662.png",
       "date": "08 Mar 2027 - 12 Mar 2027",
       "location": "Paris, France.",
       "time": null,
       "timezone": null,
-      "description": [],
+      "description": [
+        "The Annual Global Forum on Resilient Minds & Mental Strength is an international platform dedicated to advancing mental health awareness, emotional resilience, psychological wellbeing, and personal empowerment. The forum brings together mental health professionals, researchers, psychologists, educators, healthcare practitioners, policymakers, organizational leaders, and changemakers from around the world to exchange knowledge, share experiences, and explore innovative approaches to building mentally resilient individuals and communities.",
+        "Through inspiring keynote presentations, expert discussions, research insights, and interactive sessions, the conference will address emerging challenges in mental health, stress management, emotional intelligence, trauma recovery, mindfulness, workplace wellbeing, and the importance of accessible mental health support.",
+        "The forum aims to encourage meaningful conversations, strengthen global collaboration, promote evidence-based practices, and empower individuals with the knowledge and tools to navigate life's challenges with confidence and resilience.",
+        "Together, we aspire to create a future where mental wellbeing is valued, resilience is nurtured, and every individual has the opportunity to thrive."
+      ],
+      "tracks": [
+        "Mental Health Awareness & Advocacy",
+        "Psychological Resilience & Mental Strength",
+        "Emotional Intelligence & Self-Regulation",
+        "Stress, Anxiety & Burnout Management",
+        "Trauma Recovery & Emotional Healing",
+        "Mindfulness, Meditation & Holistic Wellbeing",
+        "Mental Health in Children, Adolescents & Young Adults",
+        "Workplace Mental Health & Organizational Wellbeing",
+        "Neuroscience, Brain Health & Behavioral Science",
+        "Digital Mental Health & Emerging Innovations",
+        "Suicide Prevention & Crisis Intervention",
+        "Community Mental Health & Global Initiatives",
+        "Depression, Mood Disorders & Emotional Wellbeing",
+        "Addiction, Substance Use & Recovery Support",
+        "Positive Psychology & Personal Development",
+        "Cognitive Behavioral Therapy (CBT) & Psychotherapy",
+        "Mental Health in Women & Gender-Specific Challenges",
+        "Aging, Dementia & Cognitive Health",
+        "Sleep Health, Lifestyle & Mental Wellbeing",
+        "Child Psychology & Developmental Mental Health",
+        "Social Media, Technology & Psychological Wellbeing",
+        "Resilience Building in Times of Crisis & Uncertainty",
+        "Grief, Loss & Bereavement Support",
+        "Family Dynamics, Relationships & Emotional Wellness",
+        "Mental Health Policy, Ethics & Human Rights",
+        "Early Intervention, Screening & Preventive Mental Healthcare",
+        "Integrative Approaches to Mental Health & Healing",
+        "Cultural Perspectives & Global Mental Health Challenges",
+        "Leadership, Compassion & Psychological Safety",
+        "Future Directions in Mental Health Research & Practice"
+      ],
       "tickets": [
         {
           "name": "Speaker Registration",
@@ -3321,8 +3359,7 @@
           "title": "Speaker Slot Available"
         }
       ],
-      "hasDetail": false,
-      "sharedProgrammeFrom": "Global Summit on Women Empowerment – Women Influencers Network (W.E.W.I.N.S)",
+      "hasDetail": true,
       "agendaImage": "/img/Paris-Agenda.jpeg",
       "agendaImages": [
         {
@@ -3701,12 +3738,50 @@
     {
       "slug": "gwvls-2027",
       "title": "Global Women Visionary Leadership Summit 2027 (GWVLS)",
+      "theme": "Empowering Visionary Women: Leading Change, Inspiring Innovation & Shaping the Future.",
       "image": "/img/2024_05_LEAD-Banner.jpg",
       "date": "08 Mar 2027 - 09 Mar 2027",
       "location": "New York, USA.",
       "time": null,
       "timezone": null,
-      "description": [],
+      "description": [
+        "The Global Women Visionary Leadership Summit 2027 (GWVLS) is an international platform dedicated to celebrating women's leadership, advancing gender equality, promoting innovation, and empowering the next generation of visionary leaders. The summit brings together accomplished women leaders, entrepreneurs, executives, researchers, policymakers, educators, professionals, and changemakers from across the globe to share their experiences, exchange ideas, and explore opportunities for leadership development and global collaboration.",
+        "In an evolving world shaped by innovation, technology, economic transformation, and social change, women's leadership plays a vital role in building inclusive organizations, strengthening communities, and creating sustainable opportunities. The summit aims to highlight the achievements, challenges, and contributions of women across diverse industries while encouraging meaningful conversations around leadership, entrepreneurship, empowerment, and professional advancement.",
+        "Through inspiring keynote presentations, interactive discussions, expert insights, leadership sessions, and networking opportunities, participants will explore strategies for overcoming barriers, developing leadership capabilities, driving business innovation, and creating lasting impact.",
+        "The summit aspires to create a global community where women are encouraged to lead with confidence, embrace their potential, transform challenges into opportunities, and shape a more inclusive and sustainable future."
+      ],
+      "tracks": [
+        "Women in Global Leadership & Executive Management",
+        "Women Entrepreneurs & Business Innovation",
+        "Gender Equality, Diversity & Inclusion",
+        "Women in Technology, AI & Digital Transformation",
+        "Women in Science, Research & Healthcare",
+        "Leadership Development & Executive Empowerment",
+        "Women in Business, Finance & Economic Empowerment",
+        "Breaking Barriers & Overcoming Gender Stereotypes",
+        "Women in Politics, Governance & Public Policy",
+        "Mentorship, Coaching & Leadership Development",
+        "Women in Education & Academic Leadership",
+        "Female Founders, Startups & Emerging Enterprises",
+        "Work-Life Integration & Women's Wellbeing",
+        "Women in STEM & Future Industries",
+        "Strategic Leadership & Organizational Transformation",
+        "Financial Independence & Wealth Creation for Women",
+        "Women's Rights, Advocacy & Social Justice",
+        "Building Inclusive & High-Performance Workplaces",
+        "Women in Sustainability, Climate Action & Social Impact",
+        "Next-Generation Women Leaders & Youth Empowerment",
+        "Personal Branding, Communication & Executive Presence",
+        "Negotiation Skills, Decision-Making & Strategic Thinking",
+        "Women in Media, Communication & Creative Industries",
+        "Resilience, Confidence & Overcoming Leadership Challenges",
+        "Women in Global Diplomacy & International Relations",
+        "Corporate Governance, Ethics & Responsible Leadership",
+        "Innovation, Creativity & Future-Ready Leadership",
+        "Diversity in Entrepreneurship & Cross-Cultural Leadership",
+        "Building Global Networks & Strategic Partnerships",
+        "The Future of Women’s Leadership & Generational Impact"
+      ],
       "tickets": [
         {
           "name": "Speaker Registration",
@@ -3743,8 +3818,7 @@
       ],
       "days": [],
       "sessions": [],
-      "hasDetail": false,
-      "sharedTicketsFrom": "NextGen Women’s Leadership, Empowerment & Development Summit (L.E.A.D) 2027"
+      "hasDetail": true
     },
     {
       "slug": "autism-2027",
@@ -3912,12 +3986,50 @@
     {
       "slug": "stcl-2027",
       "title": "Global Congress on Spiritual Transformation & Conscious Living",
+      "theme": "Awakening the Inner Self: Exploring Consciousness, Spiritual Growth & Transforming Human Potential.",
       "image": "/img/2024_05_5th-Spirituality.jpg",
       "date": "10 May 2027 - 11 May 2027",
       "location": "Tokyo, Japan.",
       "time": null,
       "timezone": null,
-      "description": [],
+      "description": [
+        "The Global Congress on Spiritual Transformation & Conscious Living is an international platform dedicated to exploring the deeper dimensions of human consciousness, spiritual development, mindfulness, and holistic wellbeing. The congress brings together spiritual leaders, philosophers, researchers, wellness practitioners, meditation experts, psychologists, educators, and thought leaders from across the globe to share knowledge, exchange perspectives, and explore transformative approaches to conscious living.",
+        "In an increasingly fast-paced and interconnected world, the importance of inner awareness, emotional balance, purposeful living, and spiritual wellbeing continues to grow. This congress aims to create meaningful conversations around the relationship between mind, body, and spirit while exploring how ancient wisdom, modern research, and contemporary practices can contribute to personal transformation and collective wellbeing.",
+        "Through inspiring keynote presentations, expert discussions, interactive workshops, and knowledge-sharing sessions, participants will explore mindfulness, meditation, consciousness studies, spiritual philosophies, energy practices, self-discovery, holistic healing, and the role of compassion and human connection in everyday life.",
+        "The congress aspires to inspire individuals to discover their inner potential, develop greater self-awareness, cultivate meaningful connections, and embrace a more balanced, purposeful, and conscious way of living."
+      ],
+      "tracks": [
+        "Spiritual Growth, Awakening & Personal Transformation",
+        "Human Consciousness & Higher Awareness",
+        "Mindfulness, Meditation & Contemplative Practices",
+        "Conscious Living & Purpose-Driven Lifestyles",
+        "Ancient Wisdom & Modern Spiritual Perspectives",
+        "Mind-Body-Spirit Connection & Holistic Wellbeing",
+        "Self-Discovery, Self-Awareness & Inner Development",
+        "Energy Healing & Holistic Wellness Practices",
+        "Yoga, Pranayama & Breathwork Practices",
+        "Emotional Healing & Inner Peace",
+        "Positive Psychology & Spiritual Wellbeing",
+        "Neuroscience of Meditation & Consciousness",
+        "Spiritual Philosophy & Comparative Wisdom Traditions",
+        "Compassion, Empathy & Universal Human Connection",
+        "Personal Growth, Self-Realization & Transformation",
+        "Sound Healing, Music Therapy & Vibrational Practices",
+        "Conscious Relationships & Interpersonal Harmony",
+        "Nature, Spirituality & Environmental Consciousness",
+        "Stress Reduction & Mindful Stress Management",
+        "Intuition, Self-Reflection & Inner Wisdom",
+        "Holistic Healing & Integrative Wellness Approaches",
+        "Spirituality, Psychology & Human Behaviour",
+        "Conscious Leadership & Ethical Living",
+        "Gratitude, Forgiveness & Cultivating Happiness",
+        "Life Purpose, Meaning & Existential Wellbeing",
+        "Mindful Parenting & Conscious Family Living",
+        "Spiritual Practices for Modern-Day Challenges",
+        "Consciousness Research & Emerging Scientific Perspectives",
+        "Collective Awareness, Global Peace & Human Unity",
+        "The Future of Spiritual Transformation & Conscious Living"
+      ],
       "tickets": [
         {
           "name": "Speaker Registration",
@@ -3954,18 +4066,24 @@
       ],
       "days": [],
       "sessions": [],
-      "hasDetail": false,
-      "sharedTicketsFrom": "14th World Congress on Quantum Women Rise – Transformational Leadership 2027"
+      "hasDetail": true
     },
     {
       "slug": "eiai-2026",
       "title": "International Forum on Emotional Intelligence & AI",
+      "theme": "Bridging Human Intelligence & Artificial Intelligence: Advancing Emotional Awareness, Ethical Innovation & the Future of Human Connection.",
       "image": "/img/2026_04_iDIAS-AI-Image-1024x624.jpg",
       "date": "10 May 2027 - 11 May 2027",
       "location": "Tokyo, Japan.",
       "time": null,
       "timezone": null,
-      "description": [],
+      "description": [
+        "The International Forum on Emotional Intelligence & AI is a global platform dedicated to exploring the evolving relationship between human emotional intelligence and artificial intelligence. The forum brings together researchers, psychologists, AI specialists, technology innovators, educators, business leaders, healthcare professionals, and policymakers to exchange knowledge, share research, and discuss how emotional intelligence and intelligent technologies can complement one another in an increasingly digital world.",
+        "As artificial intelligence continues to transform industries, workplaces, education, healthcare, and everyday communication, understanding the human dimensions of technology has become increasingly important. Emotional intelligence plays a vital role in empathy, communication, leadership, decision-making, and interpersonal relationships, while AI offers new opportunities to understand human behaviour, support emotional wellbeing, and enhance human capabilities.",
+        "Through inspiring keynote presentations, expert panel discussions, research presentations, and interactive sessions, the forum will explore AI-driven emotional recognition, affective computing, human-AI interaction, ethical AI development, emotional intelligence in leadership, mental wellbeing technologies, and the future of human-centered innovation.",
+        "The forum aims to encourage interdisciplinary collaboration, promote responsible AI practices, and explore how technology can be developed and applied in ways that respect human emotions, dignity, privacy, and individual differences.",
+        "Ultimately, the conference seeks to build a future where technological intelligence and human emotional understanding work together to create more empathetic, inclusive, ethical, and innovative societies."
+      ],
       "tickets": [
         {
           "name": "Speaker Registration",
@@ -4002,8 +4120,7 @@
       ],
       "days": [],
       "sessions": [],
-      "hasDetail": false,
-      "sharedTicketsFrom": "14th World Congress on Quantum Women Rise – Transformational Leadership 2027"
+      "hasDetail": true
     },
     {
       "slug": "14th-qwl",
@@ -4062,12 +4179,19 @@
     {
       "slug": "quantum-qthrm-2027",
       "title": "Quantum Summit on Trauma, Healing & Resilient Minds 2027 (Q.T.H.R.M)",
+      "theme": "Beyond Trauma: Transforming Pain into Strength Through Healing, Resilience & Psychological Empowerment.",
       "image": "/img/2022_12_TEAM-2-1024x662.png",
       "date": "24 May 2027 - 25 May 2027",
       "location": "Toronto, Canada.",
       "time": null,
       "timezone": null,
-      "description": [],
+      "description": [
+        "The Quantum Summit on Trauma, Healing & Resilient Minds 2027 (Q.T.H.R.M.) is an international platform dedicated to advancing knowledge, research, and innovative approaches in trauma recovery, psychological healing, emotional wellbeing, and resilience development. The summit brings together psychologists, psychiatrists, neuroscientists, therapists, trauma specialists, healthcare professionals, researchers, educators, and mental health advocates from across the globe to exchange expertise, share research, and explore transformative approaches to supporting individuals affected by trauma and adversity.",
+        "Trauma and prolonged stress can have profound effects on emotional wellbeing, cognitive functioning, relationships, and overall quality of life. Understanding the psychological, neurological, social, and environmental dimensions of trauma is essential to developing compassionate, effective, and evidence-based approaches to recovery. The summit aims to highlight emerging research, innovative therapeutic practices, and holistic perspectives that support healing, strengthen coping mechanisms, and promote long-term psychological resilience.",
+        "Through inspiring keynote presentations, scientific discussions, expert panels, research presentations, and interactive sessions, participants will explore trauma-informed care, neuroscience of trauma, psychological therapies, emotional regulation, childhood adversity, PTSD, mindfulness-based interventions, neuroplasticity, and resilience-building strategies.",
+        "The summit seeks to foster interdisciplinary collaboration, encourage research-driven practices, strengthen trauma-informed approaches across healthcare and communities, and empower professionals with new perspectives and tools to support recovery and personal growth.",
+        "Ultimately, Q.T.H.R.M. aims to inspire a future where healing is accessible, resilience is strengthened, and individuals are empowered to move beyond adversity towards healthier, more fulfilling lives."
+      ],
       "tickets": [
         {
           "name": "Speaker Registration",
@@ -4120,8 +4244,7 @@
       ],
       "days": [],
       "sessions": [],
-      "hasDetail": false,
-      "sharedTicketsFrom": "Quantum Summit on Spirituality, Mental Wellbeing & Resilience Psychology (Q.S.M.R.P) 2027"
+      "hasDetail": true
     },
     {
       "slug": "quantum-qsmrp-2027",
@@ -4323,30 +4446,173 @@
     {
       "slug": "apex-2027",
       "title": "Annual Global Congress on Impact, Leadership & Innovation (Apex Congress)",
+      "theme": "Leading with Vision, Driving Innovation & Creating Transformational Global Impact.",
       "image": "/img/2025_09_Quantum-Women-Leadership-Conclave.jpg",
       "date": "08 Sep 2027 - 10 Sep 2027",
       "location": "Miami/Florida, USA.",
       "time": null,
       "timezone": null,
-      "description": [],
-      "tickets": [],
+      "description": [
+        "The Annual Global Congress on Impact, Leadership & Innovation (APEX Congress) is an international platform dedicated to advancing visionary leadership, fostering innovation, and creating meaningful impact across industries and communities. The congress brings together global business leaders, entrepreneurs, executives, policymakers, researchers, academics, technology experts, investors, and changemakers to exchange ideas, share expertise, and explore strategies for shaping the future of leadership and innovation.",
+        "In a rapidly evolving world driven by technological advancements, economic shifts, digital transformation, and changing global priorities, effective leadership and innovative thinking are essential for sustainable progress. The congress aims to explore how visionary leadership, strategic decision-making, entrepreneurship, and emerging technologies can drive organizational excellence, strengthen global collaboration, and address complex societal and economic challenges.",
+        "Through inspiring keynote presentations, expert panel discussions, research presentations, interactive sessions, and networking opportunities, participants will explore emerging leadership models, business transformation, artificial intelligence, entrepreneurship, sustainable development, organizational innovation, and strategies for creating measurable social and economic impact.",
+        "The congress aspires to build a global ecosystem of forward-thinking leaders and innovators who are committed to transforming ideas into action, empowering people, fostering collaboration, and creating sustainable solutions for a better future."
+      ],
+      "tracks": [
+        "Visionary Leadership & Strategic Management",
+        "Global Business Leadership & Executive Excellence",
+        "Innovation, Creativity & Future-Oriented Thinking",
+        "Artificial Intelligence & Emerging Technologies",
+        "Digital Transformation & Industry 4.0",
+        "Entrepreneurship, Startups & Business Development",
+        "Leadership in a Changing Global Economy",
+        "Sustainable Business Models & Responsible Leadership",
+        "Organizational Transformation & Change Management",
+        "Corporate Governance, Ethics & Accountability",
+        "Women in Leadership & Executive Empowerment",
+        "Human Capital Development & Talent Management",
+        "Strategic Decision-Making & Problem-Solving",
+        "Disruptive Innovation & Emerging Business Models",
+        "Social Entrepreneurship & Global Impact",
+        "Leadership Psychology & Emotional Intelligence",
+        "Future of Work & Workforce Transformation",
+        "Innovation in Education & Knowledge Development",
+        "Global Partnerships, Collaboration & Strategic Alliances",
+        "Financial Leadership, Investment & Economic Growth",
+        "Environmental Sustainability & Green Innovation",
+        "Corporate Social Responsibility & Social Impact",
+        "Technology, Automation & Smart Industries",
+        "Leadership Resilience & Crisis Management",
+        "Branding, Marketing & Business Communication",
+        "Research, Development & Knowledge Commercialization",
+        "Innovation in Healthcare & Life Sciences",
+        "Inclusive Leadership, Diversity & Organizational Culture",
+        "Public Policy, Governance & Global Development",
+        "Future Trends in Leadership, Innovation & Global Transformation"
+      ],
+      "tickets": [
+        {
+          "name": "Speaker Registration",
+          "price": "$799.00"
+        },
+        {
+          "name": "Speaker Registration plus 2 Nights Stay Addon",
+          "price": "$1099.00"
+        },
+        {
+          "name": "Speaker Registration plus 3 Nights Stay Addon",
+          "price": "$1299.00"
+        },
+        {
+          "name": "Exhibitor Registration",
+          "price": "$1999.00"
+        },
+        {
+          "name": "Virtual Speaker Registration",
+          "price": "$399.00"
+        },
+        {
+          "name": "Virtual Keynote Speaker Registration",
+          "price": "$499.00"
+        },
+        {
+          "name": "Delegate Registration",
+          "price": "$399.00"
+        },
+        {
+          "name": "Audio - Video Presentation",
+          "price": "$199.00"
+        }
+      ],
       "days": [],
       "sessions": [],
-      "hasDetail": false
+      "hasDetail": true
     },
     {
       "slug": "wise-2027",
       "title": "NextGen Global Summit on Women Excellence & Leadership (WISE Summit)",
+      "theme": "Empowering the Next Generation of Women Leaders: Advancing Excellence, Inspiring Innovation & Shaping Global Futures.",
       "image": "/img/2026_04_WISE-Banner-1024x655.jpg",
-      "date": "08 Sep 2027 - 10 Sep 2027",
+      "date": "08 Sep 2027 - 09 Sep 2027",
       "location": "Miami/Florida, USA.",
       "time": null,
       "timezone": null,
-      "description": [],
-      "tickets": [],
+      "description": [
+        "The NextGen Global Summit on Women Excellence & Leadership (WISE Summit) is an international platform dedicated to celebrating women's achievements, advancing leadership excellence, and empowering the next generation of women leaders, entrepreneurs, professionals, and changemakers. The summit brings together influential women leaders, corporate executives, entrepreneurs, academics, researchers, policymakers, innovators, and emerging talents from across the globe to exchange knowledge, share experiences, and explore opportunities for women's advancement across diverse sectors.",
+        "In an increasingly dynamic and competitive world, women's leadership, creativity, expertise, and innovative thinking are essential to driving sustainable development and shaping the future of organizations and societies. The summit aims to highlight women's contributions across industries while addressing the challenges, opportunities, and evolving expectations surrounding gender equality, professional growth, leadership representation, and economic empowerment.",
+        "Through inspiring keynote presentations, expert panel discussions, interactive sessions, leadership conversations, and global networking opportunities, participants will explore strategies for developing leadership capabilities, overcoming professional barriers, promoting entrepreneurship, embracing emerging technologies, and creating inclusive opportunities for future generations.",
+        "The summit aspires to create a collaborative global community that celebrates women's excellence, strengthens leadership potential, encourages mentorship, and inspires women to lead with confidence, purpose, and vision.",
+        "Ultimately, WISE Summit aims to transform potential into leadership, leadership into meaningful impact, and individual achievements into lasting global progress."
+      ],
+      "tracks": [
+        "Women in Global Leadership & Executive Excellence",
+        "Next-Generation Women Leaders & Emerging Talent",
+        "Women Entrepreneurs, Startups & Business Innovation",
+        "Gender Equality, Diversity & Inclusion",
+        "Women in Science, Technology, Engineering & Mathematics (STEM)",
+        "Women in Artificial Intelligence & Digital Transformation",
+        "Leadership Development, Mentorship & Executive Coaching",
+        "Women's Economic Empowerment & Financial Independence",
+        "Breaking Barriers & Overcoming Gender Stereotypes",
+        "Women in Corporate Governance & Strategic Management",
+        "Women in Education, Research & Academic Leadership",
+        "Female Founders & Innovation-Driven Enterprises",
+        "Women in Healthcare, Medicine & Life Sciences",
+        "Personal Branding & Professional Excellence",
+        "Women in Politics, Governance & Public Policy",
+        "Emotional Intelligence & Transformational Leadership",
+        "Work-Life Integration & Women's Wellbeing",
+        "Women in Entrepreneurship & Global Business Development",
+        "Leadership Communication, Negotiation & Decision-Making",
+        "Women in Sustainability, Climate Leadership & Social Impact",
+        "Building Inclusive Workplaces & Organizational Culture",
+        "Women in Finance, Investment & Wealth Creation",
+        "Women in Media, Arts & Creative Industries",
+        "Youth Empowerment & Leadership Development",
+        "Cross-Cultural Leadership & Global Collaboration",
+        "Resilience, Confidence & Overcoming Leadership Challenges",
+        "Women in Innovation, Research & Future Industries",
+        "Corporate Social Responsibility & Community Leadership",
+        "Intergenerational Leadership & Knowledge Exchange",
+        "The Future of Women's Excellence & Global Leadership"
+      ],
+      "tickets": [
+        {
+          "name": "Speaker Registration",
+          "price": "$799.00"
+        },
+        {
+          "name": "Speaker Registration plus 2 Nights Stay Addon",
+          "price": "$1099.00"
+        },
+        {
+          "name": "Speaker Registration plus 3 Nights Stay Addon",
+          "price": "$1299.00"
+        },
+        {
+          "name": "Exhibitor Registration",
+          "price": "$1999.00"
+        },
+        {
+          "name": "Virtual Speaker Registration",
+          "price": "$399.00"
+        },
+        {
+          "name": "Virtual Keynote Speaker Registration",
+          "price": "$499.00"
+        },
+        {
+          "name": "Delegate Registration",
+          "price": "$399.00"
+        },
+        {
+          "name": "Audio - Video Presentation",
+          "price": "$199.00"
+        }
+      ],
       "days": [],
       "sessions": [],
-      "hasDetail": false
+      "hasDetail": true
     },
     {
       "slug": "hl-2027",
@@ -4356,11 +4622,83 @@
       "location": "Dubai, UAE.",
       "time": null,
       "timezone": null,
-      "description": [],
-      "tickets": [],
+      "theme": "Empowering Women Through Holistic Wellness: Nurturing Mind, Body & Spirit for a Balanced and Healthier Future.",
+      "description": [
+        "The International Congress on Holistic Wellness & Life Balance (SheBalance Summit) is a global platform dedicated to promoting holistic health, women's wellbeing, healthy lifestyle practices, and sustainable approaches to achieving balance in personal and professional life. The congress brings together healthcare professionals, physicians, wellness practitioners, nutritionists, psychologists, researchers, fitness experts, life coaches, educators, and wellness advocates from across the globe to exchange knowledge, share experiences, and explore innovative approaches to improving overall wellbeing.",
+        "In today's fast-paced and demanding world, maintaining a healthy balance between physical health, emotional wellbeing, mental resilience, professional responsibilities, and personal commitments has become increasingly important. The summit aims to highlight the interconnected dimensions of wellness while addressing the unique health, lifestyle, and wellbeing challenges women experience throughout different stages of life.",
+        "Through inspiring keynote presentations, expert discussions, research presentations, interactive workshops, and networking opportunities, participants will explore preventive healthcare, nutrition, fitness, mental wellness, hormonal health, mindfulness, stress management, healthy aging, and integrative approaches to holistic living.",
+        "The congress aims to encourage interdisciplinary collaboration, promote evidence-informed wellness practices, and empower individuals with practical knowledge and strategies to make informed health decisions, prioritize self-care, and develop healthier lifestyles.",
+        "Ultimately, SheBalance Summit aspires to inspire a global movement towards healthier, more confident, and empowered women who embrace wellness as an essential foundation for personal growth, professional success, and a fulfilling life."
+      ],
+      "tracks": [
+        "Holistic Health & Integrative Wellness",
+        "Women's Physical, Mental & Emotional Wellbeing",
+        "Nutrition, Dietetics & Healthy Eating Habits",
+        "Hormonal Health & Women's Endocrine Wellness",
+        "Menstrual Health & Reproductive Wellbeing",
+        "Menopause, Perimenopause & Healthy Aging",
+        "Mental Health, Emotional Resilience & Self-Care",
+        "Stress Management & Burnout Prevention",
+        "Mindfulness, Meditation & Conscious Living",
+        "Yoga, Pilates & Mind-Body Practices",
+        "Physical Fitness, Exercise Science & Active Living",
+        "Preventive Healthcare & Lifestyle Medicine",
+        "Sleep Health & Circadian Rhythm Management",
+        "Gut Health, Digestive Wellness & Microbiome Research",
+        "Cardiovascular Health & Metabolic Wellness",
+        "Women's Health Across Different Life Stages",
+        "Fertility, Pregnancy & Maternal Wellbeing",
+        "Postpartum Recovery & Maternal Mental Health",
+        "Healthy Aging, Longevity & Age-Related Wellness",
+        "Body Image, Self-Esteem & Positive Body Awareness",
+        "Workplace Wellness & Professional Life Balance",
+        "Emotional Intelligence & Psychological Wellbeing",
+        "Holistic Therapies & Complementary Health Approaches",
+        "Skin Health, Beauty & Wellness from Within",
+        "Chronic Disease Prevention & Lifestyle Interventions",
+        "Digital Health, Wearable Technology & Wellness Innovation",
+        "Women's Empowerment Through Health Education",
+        "Family Wellness, Relationships & Social Support",
+        "Self-Care Strategies & Sustainable Lifestyle Habits",
+        "Future Trends in Women's Health & Holistic Wellness"
+      ],
+      "tickets": [
+        {
+          "name": "Speaker Registration",
+          "price": "$799.00"
+        },
+        {
+          "name": "Speaker Registration plus 2 Nights Stay Addon",
+          "price": "$1099.00"
+        },
+        {
+          "name": "Speaker Registration plus 3 Nights Stay Addon",
+          "price": "$1299.00"
+        },
+        {
+          "name": "Exhibitor Registration",
+          "price": "$1999.00"
+        },
+        {
+          "name": "Virtual Speaker Registration",
+          "price": "$399.00"
+        },
+        {
+          "name": "Virtual Keynote Speaker Registration",
+          "price": "$499.00"
+        },
+        {
+          "name": "Delegate Registration",
+          "price": "$399.00"
+        },
+        {
+          "name": "Audio - Video Presentation",
+          "price": "$199.00"
+        }
+      ],
       "days": [],
       "sessions": [],
-      "hasDetail": false
+      "hasDetail": true
     },
     {
       "slug": "sf-2027",
@@ -4370,11 +4708,83 @@
       "location": "Dubai, UAE.",
       "time": null,
       "timezone": null,
-      "description": [],
-      "tickets": [],
+      "theme": "Shaping a Healthier Tomorrow: Advancing Sustainable Healthcare, Innovation & Global Wellbeing.",
+      "description": [
+        "The World Forum on Sustainable Wellbeing & Future Health is an international platform dedicated to advancing sustainable healthcare, promoting global wellbeing, and exploring innovative solutions to the evolving challenges of public health. The forum brings together healthcare professionals, physicians, researchers, scientists, policymakers, public health experts, environmental specialists, technology innovators, academics, and industry leaders from across the globe to exchange knowledge, share research, and discuss strategies for building healthier and more sustainable communities.",
+        "As the world faces increasing healthcare demands, environmental challenges, emerging diseases, demographic changes, and rapid technological advancements, the need for resilient and sustainable health systems has become more important than ever. The forum aims to explore the interconnected relationship between human health, environmental sustainability, healthcare innovation, and social wellbeing while encouraging collaborative approaches to improving health outcomes worldwide.",
+        "Through inspiring keynote presentations, scientific discussions, expert panel sessions, research presentations, and interactive knowledge-sharing opportunities, participants will explore preventive healthcare, digital health technologies, artificial intelligence in medicine, climate-resilient healthcare systems, environmental health, public health policies, health equity, and sustainable approaches to disease prevention and management.",
+        "The forum seeks to strengthen interdisciplinary collaboration, encourage evidence-based practices, promote responsible healthcare innovation, and support the development of accessible, inclusive, and environmentally sustainable health systems.",
+        "Ultimately, the World Forum on Sustainable Wellbeing & Future Health aims to inspire collective action towards a healthier world where scientific progress, environmental responsibility, and human wellbeing work together to create a sustainable future for generations to come."
+      ],
+      "tracks": [
+        "Global Health & Sustainable Development",
+        "Sustainable Healthcare Systems & Healthcare Innovation",
+        "Public Health, Epidemiology & Disease Prevention",
+        "One Health: Human, Animal & Environmental Health",
+        "Climate Change & Its Impact on Human Health",
+        "Environmental Health & Sustainable Living",
+        "Artificial Intelligence & Digital Transformation in Healthcare",
+        "Telemedicine, Remote Healthcare & Digital Health Solutions",
+        "Preventive Medicine & Lifestyle-Based Healthcare",
+        "Healthcare Accessibility, Equity & Universal Health Coverage",
+        "Health Policy, Governance & Global Health Strategies",
+        "Non-Communicable Diseases & Chronic Disease Management",
+        "Infectious Diseases, Emerging Pathogens & Global Preparedness",
+        "Mental Health, Psychological Wellbeing & Resilience",
+        "Nutrition, Food Security & Population Health",
+        "Maternal, Child & Adolescent Health",
+        "Healthy Aging, Longevity & Geriatric Healthcare",
+        "Precision Medicine & Personalized Healthcare",
+        "Medical Research, Biotechnology & Scientific Innovation",
+        "Healthcare Leadership & Hospital Management",
+        "Sustainable Hospitals & Green Healthcare Infrastructure",
+        "Medical Waste Management & Environmental Responsibility",
+        "Occupational Health, Workplace Safety & Employee Wellbeing",
+        "Community Health & Rural Healthcare Development",
+        "Health Education, Awareness & Community Empowerment",
+        "Healthcare Data Science, Analytics & Digital Security",
+        "Rehabilitation Medicine & Integrated Patient Care",
+        "Antimicrobial Resistance & Global Health Security",
+        "Social Determinants of Health & Health Inequalities",
+        "Future Trends in Medicine, Healthcare & Sustainable Wellbeing"
+      ],
+      "tickets": [
+        {
+          "name": "Speaker Registration",
+          "price": "$799.00"
+        },
+        {
+          "name": "Speaker Registration plus 2 Nights Stay Addon",
+          "price": "$1099.00"
+        },
+        {
+          "name": "Speaker Registration plus 3 Nights Stay Addon",
+          "price": "$1299.00"
+        },
+        {
+          "name": "Exhibitor Registration",
+          "price": "$1999.00"
+        },
+        {
+          "name": "Virtual Speaker Registration",
+          "price": "$399.00"
+        },
+        {
+          "name": "Virtual Keynote Speaker Registration",
+          "price": "$499.00"
+        },
+        {
+          "name": "Delegate Registration",
+          "price": "$399.00"
+        },
+        {
+          "name": "Audio - Video Presentation",
+          "price": "$199.00"
+        }
+      ],
       "days": [],
       "sessions": [],
-      "hasDetail": false
+      "hasDetail": true
     },
     {
       "slug": "wifi-2026",
