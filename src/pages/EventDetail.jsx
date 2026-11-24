@@ -97,7 +97,10 @@ export default function EventDetail() {
   const isVirtual = Boolean(event.isVirtual || event.virtual)
   const chips = [
     event.date && { icon: <Cal />, label: event.date },
-    event.location && { icon: <Pin />, label: event.location },
+    event.location && {
+      icon: <Pin />,
+      label: event.venue?.name ? `${event.venue.name} · ${event.location}` : event.location,
+    },
     isVirtual && {
       icon: (
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -613,14 +616,32 @@ export default function EventDetail() {
               </div>
             </div>
             {/* Venue & Co-located cards grid */}
-            {(event.location || siblings.length > 0) && (
+            {(event.location || event.venue || siblings.length > 0) && (
               <div className="mt-14">
-                <div className={`grid gap-6 ${event.location && siblings.length > 0 ? 'md:grid-cols-2' : 'grid-cols-1'}`}>
+                <div className={`grid gap-6 ${(event.location || event.venue) && siblings.length > 0 ? 'md:grid-cols-2' : 'grid-cols-1'}`}>
                   {/* Venue */}
-                  {event.location && (
+                  {(event.venue || event.location) && (
                     <div className="card p-7">
-                      <span className="eyebrow">Venue</span>
-                      <p className="text-lg font-extrabold text-brand-purple">{event.location}</p>
+                      <span className="eyebrow">{event.venue?.label || 'Venue'}</span>
+                      {event.venue?.name ? (
+                        <>
+                          <h3 className="text-lg font-extrabold text-brand-purple">
+                            {event.venue.name}
+                          </h3>
+                          {event.venue.address && (
+                            <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-ink-soft">
+                              {event.venue.address}
+                            </p>
+                          )}
+                          {!event.venue.address && event.location && (
+                            <p className="mt-1 text-sm text-ink-muted">{event.location}</p>
+                          )}
+                        </>
+                      ) : (
+                        <p className="text-lg font-extrabold text-brand-purple">
+                          {typeof event.venue === 'string' ? event.venue : event.location}
+                        </p>
+                      )}
                       {event.time && (
                         <p className="mt-3 flex items-center gap-2 text-sm text-ink-soft">
                           <Clock />
@@ -628,7 +649,16 @@ export default function EventDetail() {
                         </p>
                       )}
                       <a
-                        href={`https://www.google.com/maps/search/${encodeURIComponent(event.location)}`}
+                        href={
+                          event.venue?.mapsUrl ||
+                          `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                            event.venue?.name
+                              ? `${event.venue.name}, ${event.venue.address ? event.venue.address.replace(/\n/g, ' ') : event.location}`
+                              : typeof event.venue === 'string'
+                                ? event.venue
+                                : event.location
+                          )}`
+                        }
                         target="_blank"
                         rel="noreferrer noopener"
                         className="btn-ghost mt-6 w-full !px-4 !text-[11px]"

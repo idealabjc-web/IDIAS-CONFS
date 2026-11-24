@@ -2213,7 +2213,13 @@
           "src": "/img/Paris-Agenda.jpeg",
           "label": "Paris, France (CET)"
         }
-      ]
+      ],
+      "venue": {
+        "name": "Millennium Hotel Paris Charles De Gaulle",
+        "label": "Conference & Accommodation Venue",
+        "address": "2 Allée du Verger,\n95700 Roissy-en-France,\nParis, France",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Millennium+Hotel+Paris+Charles+De+Gaulle+2+All%C3%A9e+du+Verger+95700+Roissy-en-France+Paris+France"
+      }
     },
     {
       "slug": "herlead-2027",
@@ -2590,7 +2596,13 @@
           "src": "/img/Paris-Agenda.jpeg",
           "label": "Paris, France (CET)"
         }
-      ]
+      ],
+      "venue": {
+        "name": "Millennium Hotel Paris Charles De Gaulle",
+        "label": "Conference & Accommodation Venue",
+        "address": "2 Allée du Verger,\n95700 Roissy-en-France,\nParis, France",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Millennium+Hotel+Paris+Charles+De+Gaulle+2+All%C3%A9e+du+Verger+95700+Roissy-en-France+Paris+France"
+      }
     },
     {
       "slug": "herlead-2028",
@@ -3366,7 +3378,13 @@
           "src": "/img/Paris-Agenda.jpeg",
           "label": "Paris, France (CET)"
         }
-      ]
+      ],
+      "venue": {
+        "name": "Millennium Hotel Paris Charles De Gaulle",
+        "label": "Conference & Accommodation Venue",
+        "address": "2 Allée du Verger,\n95700 Roissy-en-France,\nParis, France",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Millennium+Hotel+Paris+Charles+De+Gaulle+2+All%C3%A9e+du+Verger+95700+Roissy-en-France+Paris+France"
+      }
     },
     {
       "slug": "icpmhhp-2027",
@@ -3517,7 +3535,13 @@
           "src": "/img/Paris-Agenda.jpeg",
           "label": "Paris, France (CET)"
         }
-      ]
+      ],
+      "venue": {
+        "name": "Millennium Hotel Paris Charles De Gaulle",
+        "label": "Conference & Accommodation Venue",
+        "address": "2 Allée du Verger,\n95700 Roissy-en-France,\nParis, France",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Millennium+Hotel+Paris+Charles+De+Gaulle+2+All%C3%A9e+du+Verger+95700+Roissy-en-France+Paris+France"
+      }
     },
     {
       "slug": "lead-2027",
@@ -5344,7 +5368,13 @@
           "src": "/img/Paris-Agenda.jpeg",
           "label": "Paris, France (CET)"
         }
-      ]
+      ],
+      "venue": {
+        "name": "Millennium Hotel Paris Charles De Gaulle",
+        "label": "Conference & Accommodation Venue",
+        "address": "2 Allée du Verger,\n95700 Roissy-en-France,\nParis, France",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Millennium+Hotel+Paris+Charles+De+Gaulle+2+All%C3%A9e+du+Verger+95700+Roissy-en-France+Paris+France"
+      }
     }
   ],
   "speakers": [
